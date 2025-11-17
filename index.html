@@ -2,8 +2,9 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JPT INTRANET</title>
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic-coding.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,9 +17,18 @@
     <div class="container">
         <!-- 상단 헤더 -->
         <div class="header">
+            <!-- 햄버거 메뉴 버튼 (모바일용) -->
+            <div class="hamburger" id="hamburger" style="display: none;">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div class="header-title" id="home-button" style="cursor: pointer;">JPT INTRANET</div>
-            <div class="security-level">Security Level D</div>
+            <div class="security-level">SECURITY LEVEL <span style="font-weight: bold;">D</span></div>
         </div>
+
+        <!-- 오버레이 (모바일 사이드바용) -->
+        <div class="overlay" id="overlay"></div>
 
         <!-- 왼쪽 사이드바 -->
         <div class="sidebar">
@@ -82,7 +92,7 @@
                 <p>작성자: Dr. R. K.</p>
                 <p>날짜: 19██년 10월 7일</p>
                 <p>&nbsp;</p>
-                <p>1410i, 정부 지원 하에 이루어진 유인 목성 탐사 임무 중, 낙오된 대원 ████(이하 J-001)이 기괴한 변이했습니다. 변이는 수분 내로 이루어졌으며, 현장 지휘관 [데이터 말소]의 판단으로 확보되었습니다. 당국은 이 사실을 철저히 은폐하고, JPT(Jupiter Project Team)를 설립하여 J-001를 격리했습니다.</p>
+                <p>1410i, 정부 지원 하에 이루어진 유인 목성 탐사 임무 중, 낙오된 대원 ████(이하 J-001)이 기괴한 변이했습니다. 변이는 수분 내로 이루어졌으며, 현장 지휘관 [데이터 말소]의 판단으로 확보되습니. 당국은 이 사실을 철저히 은폐하고, JPT(Jupiter Project Team)를 설립하여 J-001를 격리했습니다.</p>
                 <p>&nbsp;</p>
                 <p>1413i, J-001는 현재 JPT 소속 제7 격리 시설 지하 4층의 특수 챔버(이하 격리시설)에 격리 중입니다.</p>
                 <p>&nbsp;</p>
@@ -109,7 +119,7 @@
                     id="youtube-player"
                     width="100%" 
                     height="100%" 
-                    src="https://www.youtube.com/embed/CqbPpgjCGmo?enablejsapi=1" 
+                    src="https://www.youtube.com/embed/CqbPpgjCGmo?enablejsapi=1&modestbranding=1&rel=0&iv_load_policy=3" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -129,7 +139,7 @@
                 <p><strong>주요 내용:</strong></p>
                 <p>- 미확인 객체 발견</p>
                 <p>- 비정상적인 에너지 반응 감지</p>
-                <p>- 통신 두절 전 마지막 기록</p>
+                <p>- 통신 두절 전 마지 기록</p>
                 <br>
                 <p><strong>WARNING:</strong></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -142,6 +152,13 @@
         </div>
     </div>
 
+    <!-- 공포 글리치 이미지 -->
+    <div class="jumpscare-glitch" id="jumpscare-glitch">
+        <img src="images/7.png" alt="">
+    </div>
+
     <script src="scripts.js"></script>
+    <!-- Vimeo Player API -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 </html>
