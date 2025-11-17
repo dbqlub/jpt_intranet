@@ -98,7 +98,7 @@ const pageData = {
             <p>작성자: DR. R. K.</p>
             <p>날짜: 19██년 10월 7일</p>
             <p>&nbsp;</p>
-            <p>1410i, 정부 지원 하에 이루어진 유인 목성 탐사 임무 중, 낙오된 대원 ████(이하 J-001)이 기괴한 .   내로 ���루어졌으며, 현장 지휘관 [데이터 말소]의 판단으로 확보되었습니다. 당국은 이 사실을 철저히 은폐하고, JPT(JUPITER PROJECT TEAM)를 설립하여 J-001를 격리했습니다.</p>
+            <p>1410i, 정부 지원 하에 이루어진 유인 목성 탐사 임무 중, 낙오된 대원 ████(이하 J-001)이 기괴한 .   내로 루어졌으며, 현장 지휘관 [데이터 말소]의 판단으로 확보되었습니다. 당국은 이 사실을 철저히 은폐하고, JPT(JUPITER PROJECT TEAM)를 설립하여 J-001를 격리했습니다.</p>
             <p>&nbsp;</p>
             <p>1413i, J-001는 현재 JPT 소속 제7 격리 시설 지하 4층의 특수 챔버(이하 격리시설)에 격리 중입니다.</p>
             <p>&nbsp;</p>
@@ -612,28 +612,19 @@ document.addEventListener('DOMContentLoaded', function() {
         // 화면 글리치 효과도 함께 발동
         triggerGlitchEffect();
         
-        // 랜덤으로 3가지 스케일 중 하나 선택
-        const scales = ['scale-large', 'scale-medium', 'scale-normal'];
+        // 랜덤으로 3가지 스케일 중 하나 선택 (큰 크기로 변경)
+        const scales = [1.3, 1.5, 1.7];
         const randomScale = scales[Math.floor(Math.random() * scales.length)];
         
-        // 랜덤 위치 (-15% ~ 15% 범위, 이미지가 화면을 벗어나지 않도록)
+        // 랜덤 위치 (±15% 범위)
         const randomX = (Math.random() - 0.5) * 30; // -15% ~ 15%
         const randomY = (Math.random() - 0.5) * 30; // -15% ~ 15%
         
-        // 랜덤 회전 (-20도 ~ 20도) - 처음부터 회전된 채로 나타남
+        // 랜덤 회전 (±20도 범위)
         const randomRotation = (Math.random() - 0.5) * 40; // -20 ~ 20도
         
-        // 이전 스케일 클래스 제거
-        jumpscare.classList.remove('scale-large', 'scale-medium', 'scale-normal');
-        
-        // 새로운 스케일 클래스 추가
-        jumpscare.classList.add(randomScale);
-        
-        // 기본 transform에 랜덤 위치와 회전 적용 (처음부터 회전된 상태로)
-        // 상단 중심으로 확대되도록 설정
-        const baseScale = randomScale === 'scale-large' ? 1.5 : 
-                         randomScale === 'scale-medium' ? 1.2 : 1.0;
-        img.style.transform = `translate(${randomX}%, ${randomY}%) rotate(${randomRotation}deg) scale(${baseScale})`;
+        // 기본 transform에 랜덤 위치, 회전, 스케일 적용
+        img.style.transform = `translate(${randomX}%, ${randomY}%) rotate(${randomRotation}deg) scale(${randomScale})`;
         
         jumpscare.classList.add('trigger');
         
