@@ -11,6 +11,28 @@ body {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
+    letter-spacing: -0.05em; /* 한글 기본 자간 */
+}
+
+/* 영문 전용 요소들 */
+.header-title,
+.security-level,
+.menu-item,
+.tab,
+.video-title,
+.control-left,
+.control-right,
+.warning-banner,
+#access-denied,
+.divider-text,
+.breadcrumb {
+    letter-spacing: 0.05em; /* 영문 자간 */
+}
+
+/* 한글 포함 텍스트 요소들 */
+.document-text,
+.video-text {
+    letter-spacing: -0.05em; /* 한글 자간 */
 }
 
 .container {
@@ -338,6 +360,26 @@ body {
     color: #e53d2e;
     text-align: center;
     padding: 0 clamp(15px, 2vw, 40px);
+    overflow: hidden;
+}
+
+.warning-banner .warning-text {
+    white-space: nowrap;
+}
+
+.warning-banner .warning-text.scrolling {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 /* 접근 거부 메시지 */
@@ -456,6 +498,142 @@ body {
     66% { transform: translate(-2px, 1px); }
 }
 
+/* 공포 점프스퀘어 글리치 효과 */
+.jumpscare-glitch {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 10000;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.jumpscare-glitch img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    filter: blur(2px) brightness(1.1) contrast(1.3);
+    transform-origin: center center;
+}
+
+.jumpscare-glitch.trigger {
+    animation: jumpscareEffect 0.7s steps(8) forwards;
+}
+
+@keyframes jumpscareEffect {
+    0% {
+        opacity: 0;
+        filter: blur(15px) brightness(3);
+    }
+    5% {
+        opacity: 0.18;
+        filter: blur(8px) brightness(2);
+        transform: translateX(-15px) translateY(10px);
+    }
+    10% {
+        opacity: 0.32;
+        filter: blur(3px) brightness(1.5);
+        transform: translateX(20px) translateY(-8px);
+    }
+    15% {
+        opacity: 0.12;
+        filter: blur(12px) brightness(2.2);
+        transform: translateX(-8px) translateY(15px);
+    }
+    20% {
+        opacity: 0.35;
+        filter: blur(2px) brightness(1.4);
+        transform: translateX(12px) translateY(-12px);
+    }
+    25% {
+        opacity: 0.15;
+        filter: blur(10px) brightness(2);
+        transform: translateX(-18px) translateY(5px);
+    }
+    30% {
+        opacity: 0.28;
+        filter: blur(4px) brightness(1.6);
+        transform: translateX(10px) translateY(-15px);
+    }
+    35% {
+        opacity: 0.12;
+        filter: blur(11px) brightness(2.1);
+        transform: translateX(-12px) translateY(8px);
+    }
+    40% {
+        opacity: 0.33;
+        filter: blur(3px) brightness(1.5);
+        transform: translateX(15px) translateY(-10px);
+    }
+    45% {
+        opacity: 0.16;
+        filter: blur(9px) brightness(1.9);
+        transform: translateX(-10px) translateY(12px);
+    }
+    50% {
+        opacity: 0.25;
+        filter: blur(5px) brightness(1.6);
+        transform: translateX(8px) translateY(-8px);
+    }
+    55% {
+        opacity: 0.13;
+        filter: blur(10px) brightness(1.8);
+        transform: translateX(-15px) translateY(10px);
+    }
+    60% {
+        opacity: 0.23;
+        filter: blur(6px) brightness(1.5);
+        transform: translateX(12px) translateY(-12px);
+    }
+    65% {
+        opacity: 0.11;
+        filter: blur(11px) brightness(1.7);
+        transform: translateX(-8px) translateY(8px);
+    }
+    70% {
+        opacity: 0.22;
+        filter: blur(4px) brightness(1.4);
+        transform: translateX(10px) translateY(-10px);
+    }
+    75% {
+        opacity: 0.1;
+        filter: blur(8px) brightness(1.6);
+        transform: translateX(-6px) translateY(6px);
+    }
+    80% {
+        opacity: 0.17;
+        filter: blur(5px) brightness(1.3);
+        transform: translateX(8px) translateY(-8px);
+    }
+    85% {
+        opacity: 0.08;
+        filter: blur(7px) brightness(1.5);
+        transform: translateX(-5px) translateY(5px);
+    }
+    90% {
+        opacity: 0.13;
+        filter: blur(6px) brightness(1.3);
+        transform: translateX(3px) translateY(-3px);
+    }
+    95% {
+        opacity: 0.05;
+        filter: blur(4px) brightness(1.2);
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        opacity: 0;
+        filter: blur(2px) brightness(1);
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
 /* 모바일 반응형 */
 @media screen and (max-width: 1024px) {
     /* 사이드바를 햄버거 메뉴로 전환 */
@@ -510,28 +688,28 @@ body {
         left: 3vw;
         right: 3vw;
         top: 11vh;
-        font-size: clamp(12px, 2.5vw, 18px);
+        font-size: clamp(14px, 3vw, 20px);
     }
     
     /* 메인 컨텐츠 위치 조정 */
     .main-content {
         left: 3vw;
         right: 3vw;
-        top: 15.65vh;
-        height: calc(84.35vh - clamp(55px, 6vh, 75px));
-        font-size: clamp(11px, 2.2vw, 15px);
+        top: 14vh;
+        height: calc(78vh - clamp(55px, 6vh, 75px));
+        font-size: clamp(13px, 2.8vw, 16px);
     }
     
     .document-text {
-        font-size: clamp(11px, 2.2vw, 15px);
+        font-size: clamp(13px, 2.8vw, 16px);
     }
     
     /* 비디오 프레임 위치 조정 */
     .video-frame {
         left: 3vw;
         right: 3vw;
-        top: 15.65vh;
-        height: calc(84.35vh - clamp(55px, 6vh, 75px));
+        top: 14vh;
+        height: calc(78vh - clamp(55px, 6vh, 75px));
     }
     
     /* 비디오 섹션 세로 배치 */
@@ -552,7 +730,7 @@ body {
         top: calc(40% + clamp(104px, 11.5vh, 139px));
         right: 2px;
         padding: clamp(15px, 2vh, 25px);
-        font-size: clamp(11px, 2.2vw, 15px);
+        font-size: clamp(13px, 2.8vw, 16px);
     }
     
     /* 오버레이 (사이드바 열렸을 때 배경) */
@@ -571,27 +749,33 @@ body {
         display: block;
     }
     
-    /* 점프스퀘어 모바일 위치 조정 */
+    /* 점프스퀘어 모바일 위 조정 */
     .jumpscare-glitch img {
         transform-origin: center center;
+    }
+    
+    /* 경고 배너 스크롤 애니메이션 활성화 */
+    .warning-banner .warning-text {
+        animation: scroll-left 20s linear infinite;
+        padding-left: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     /* 헤더 폰트 크기 조정 */
     .header-title {
-        font-size: clamp(14px, 3.5vw, 20px);
+        font-size: clamp(16px, 4vw, 22px);
     }
     
     .security-level {
-        font-size: clamp(12px, 3vw, 18px);
+        font-size: clamp(14px, 3.5vw, 20px);
     }
     
     /* 비디오 탭 크기 조정 */
     .tab {
         width: clamp(60px, 15vw, 100px);
         height: clamp(35px, 4vh, 45px);
-        font-size: clamp(10px, 2.2vw, 14px);
+        font-size: clamp(12px, 2.6vw, 16px);
     }
     
     /* 비디오 컨트롤 크기 조정 */
@@ -602,11 +786,11 @@ body {
     
     .control-left,
     .control-right {
-        font-size: clamp(14px, 3.5vw, 20px);
+        font-size: clamp(16px, 4vw, 22px);
     }
     
     .video-title {
-        font-size: clamp(10px, 2.5vw, 16px);
+        font-size: clamp(12px, 2.8vw, 18px);
     }
     
     /* 비디오 플레이어 비율 조정 */
@@ -617,26 +801,30 @@ body {
     .video-text {
         height: calc(65% - clamp(104px, 11.5vh, 139px));
         top: calc(35% + clamp(104px, 11.5vh, 139px));
-        font-size: clamp(10px, 2.2vw, 13px);
+        font-size: clamp(12px, 2.6vw, 15px);
     }
     
     /* 메뉴 아이템 터치 영역 확대 */
     .menu-item {
         height: clamp(32px, 4vh, 45px);
         margin: clamp(8px, 1vh, 12px) auto;
-        font-size: clamp(11px, 2.8vw, 14px);
+        font-size: clamp(13px, 3.2vw, 16px);
     }
     
     .divider-text {
-        font-size: clamp(11px, 2.5vw, 13px);
+        font-size: clamp(12px, 2.8vw, 14px);
     }
     
     .breadcrumb {
-        font-size: clamp(11px, 2.5vw, 15px);
+        font-size: clamp(13px, 3vw, 17px);
     }
     
     .document-text {
-        font-size: clamp(10px, 2.2vw, 13px);
+        font-size: clamp(12px, 2.6vw, 15px);
+    }
+    
+    .warning-banner {
+        font-size: clamp(10px, 2.5vw, 14px);
     }
 }
 
