@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <title>JPT INTRANET</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 배경음악 -->
+    <audio id="bgm" loop autoplay volume="0.2">
+        <source src="bgm.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <!-- 상단 헤더 -->
+        <div class="header">
+            <div class="header-title" id="home-button" style="cursor: pointer;">JPT INTRANET</div>
+            <div class="security-level">Security Level D</div>
+        </div>
+
+        <!-- 왼쪽 사이드바 -->
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <!-- JPT 섹션 -->
+                <div class="menu-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-text">JPT</div>
+                </div>
+                <div class="menu-item">INFORMATION</div>
+                <div class="menu-item disabled">PERSONNEL</div>
+                <div class="menu-item disabled">SYSTEM_CONTROL</div>
+
+                <!-- PROJECT_JUPITER 섹션 -->
+                <div class="menu-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-text">PROJECT_JUPITER</div>
+                </div>
+                <div class="menu-item">INFORMATION</div>
+                <div class="menu-item">EXPLORATION_LOG</div>
+
+                <!-- THE_APOSTLE_OF_JUPITER 섹션 -->
+                <div class="menu-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-text">THE_APOSTLE_OF_JUPITER</div>
+                </div>
+                <div class="menu-item">INFORMATION</div>
+                <div class="menu-item active">RESEARCH_LOGS</div>
+
+                <!-- ANOMALIES 섹션 -->
+                <div class="menu-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-text">ANOMALIES</div>
+                </div>
+                <div class="menu-item">INFORMATION</div>
+                <div class="menu-item">CENSORED_MEDIA</div>
+                <div class="menu-item disabled">SITE_STATUS</div>
+            </div>
+        </div>
+
+        <!-- 브레드크럼 -->
+        <div class="breadcrumb" id="breadcrumb">
+            <span>RESEARCH LOGS</span>
+            <span class="separator"> // </span>
+            <span>FILE_1</span>
+            <span class="separator"> // </span>
+            <span class="current">PERSONNEL_BODYCAM_FOOTAGE</span>
+        </div>
+
+        <!-- 접근 거부 메시지 -->
+        <div class="access-denied" id="access-denied">
+            ACCESS DENIED: HIGHER SECURITY CLEARANCE REQUIRED
+        </div>
+
+        <!-- 메인 컨텐츠 -->
+        <div class="main-content">
+            <div class="document-text">
+                <p>[JPT 기록] 목성의 사도 연구일지</p>
+                <p>&nbsp;</p>
+                <p>기밀 등급: TOP SECRET</p>
+                <p>작성자: Dr. R. K.</p>
+                <p>날짜: 19██년 10월 7일</p>
+                <p>&nbsp;</p>
+                <p>1410i, 정부 지원 하에 이루어진 유인 목성 탐사 임무 중, 낙오된 대원 ████(이하 J-001)이 기괴한 변이했습니다. 변이는 수분 내로 이루어졌으며, 현장 지휘관 [데이터 말소]의 판단으로 확보되었습니다. 당국은 이 사실을 철저히 은폐하고, JPT(Jupiter Project Team)를 설립하여 J-001를 격리했습니다.</p>
+                <p>&nbsp;</p>
+                <p>1413i, J-001는 현재 JPT 소속 제7 격리 시설 지하 4층의 특수 챔버(이하 격리시설)에 격리 중입니다.</p>
+                <p>&nbsp;</p>
+                <p>1415i, 확보된 개체는 일부 인간의 형태를 유지하고 있으나 강력한 자기장을 방출하고 있으며, 피부에 정체를 알 수 없는 붉은 용돌이 무늬가 불규칙적으로 번지고 있습니다.</p>
+                <p>&nbsp;</p>
+                <p>1415i, J-001는 의미를 알 수 없는 낮고 그로테스크한 소음만을 간헐적으로 배출하고 있습니다.</p>
+            </div>
+        </div>
+
+        <!-- 비디오 프레임 -->
+        <div class="video-frame">
+            <div class="video-tabs">
+                <div class="tab active" data-video="CqbPpgjCGmo">FILE_1</div>
+                <div class="tab" data-video="CqbPpgjCGmo">FILE_2</div>
+                <div class="tab" data-video="CqbPpgjCGmo">FILE_3</div>
+            </div>
+            <div class="video-controls">
+                <div class="control-left"><</div>
+                <div class="video-title">PERSONNEL_BODYCAM_FOOTAGE</div>
+                <div class="control-right">></div>
+            </div>
+            <div class="video-player">
+                <iframe 
+                    id="youtube-player"
+                    width="100%" 
+                    height="100%" 
+                    src="https://www.youtube.com/embed/CqbPpgjCGmo?enablejsapi=1" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-divider"></div>
+            <div class="video-text">
+                <p><strong>FILE: PERSONNEL_BODYCAM_FOOTAGE</strong></p>
+                <p><strong>DATE:</strong> [REDACTED]</p>
+                <p><strong>LOCATION:</strong> [CLASSIFIED]</p>
+                <p><strong>PERSONNEL:</strong> Agent █████</p>
+                <br>
+                <p><strong>DESCRIPTION:</strong></p>
+                <p>이 영상은 현장 요원의 바디캠에 기록된 기밀 영상입니다. 프로젝트 주피터와 관련된 중요한 증거가 포함되어 있으며, 레벨 4 이상의 보안 승인이 필요합니다.</p>
+                <br>
+                <p><strong>주요 내용:</strong></p>
+                <p>- 미확인 객체 발견</p>
+                <p>- 비정상적인 에너지 반응 감지</p>
+                <p>- 통신 두절 전 마지막 기록</p>
+                <br>
+                <p><strong>WARNING:</strong></p>
+                <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
+            </div>
+        </div>
+
+        <!-- 하단 경고문구 -->
+        <div class="warning-banner">
+            JPT'S DATABASE IS CONFIDENTIAL. ACCESS TO UNAUTHORIZED PERSONNEL IS STRICTLY PROHIBITED. VIOLATORS ARE TRACKED, IDENTIFIED, AND DETAINED.
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
