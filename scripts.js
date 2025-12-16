@@ -37,7 +37,7 @@ const pageData = {
             <p>&nbsp;</p>
             <p>1810i, 착륙 모듈이 목성의 위성 ████에 착륙했으나, 예상치 못한 사건이 발생했습니다. 자세한 내용은 EXPLORATION_LOG를 참조하십시오.</p>
             <p>&nbsp;</p>
-            <p>현재 이 프로젝트는 JPT의 직접 관리 하에 있으며, 관련 정보는 보안 등급 B로 분류되었습니다.</p>
+            <p>해당 프로젝트는 JPT의 직접 관리 하에 있으며, 관련 정보는 보안 등급 B로 분류되었습니다.</p>
         `,
         showVideo: false
     },
@@ -88,7 +88,7 @@ const pageData = {
                 <br>
                 <p>1930i, 개체는 현재 JPT 소속 제7 격리 시설 지하 4층의 특수 챔버에 격리 중입니다. 일부 인간의 형태를 유지하고 있으나, 인간으로서의 생사 여부는 알 수 없습니다.</p>
                 <br>
-                <p>2030i, 연구원 회의 결과, 목성 인근으로부터 미상의 바이러스가 대원에게 침투한 것으로 추정했습니다. 한 연구 목성의 지성체 또는 목성 자체가 무언가의 의도를 가지고 대원을 '목성의 사도'로 변이시켰다고 주장합니다.</p>
+                <p>2030i, 연구원 회의 결과, 목성 인근으로부터 미상의 바이러스가 대원에게 침투한 것으로 추정했습니다. 한 연구원은 목성의 지성체 또는 목성 자체가 무언가의 의도를 가지고 대원을 '목성의 사도'로 변이시켰다고 주장합니다.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -229,7 +229,7 @@ const pageData = {
         videoTitle: 'NEWS',
         videoTexts: {
             'FILE_1': `
-                <p>출처: NSK 방송국</p>
+                <p>출처: NSK 방국</p>
                 <p>위치: 미국 워싱턴 D.C., 백악관 북쪽 잔디밭</p>
                 <p>대상: NSK 소속 리포터 ███</p>
                 <p>일시: ████년 ██월 ██일 1804i</p>
@@ -249,11 +249,11 @@ const pageData = {
                 <p>일시: ████년 ██월 ██일 1804i</p>
                 <p>상태: 비디오 수거 완료</p>
                 <br>
-                <p>변이 징후가 포착되어 체포 팀이 출동했고, '이범 병장'을 대한민국 제3 격리 시설로 이송하기 위해 현장에 도착했습니다. 개체는 벽을 바라보며 미약한 움직임만을 반복하고 있었으나, 대상의 경추가 뒤틀리며 등 뒤의 요원을 응시했습니다. 개체의 손과 입엔 수류탄이 있었으며, 배 속에도 다수의 수류탄이 존재하는 것으로 추정됩니다. 이후, 수류탄 격발로 인해 요원 7명이 현장에서 즉사했고, 개체또한 산산조각 났습니다.</p>
+                <p>변이 징후가 포착되어 현장 팀이 출동했고, '이종범 병장'을 대한민국 제3 격리 시설로 이송하기 위해 현장에 도착했습니다. 개체는 벽을 바라보며 미약한 움직임만을 반복하고 있었으나, 대상의 경추가 뒤틀리며 등 뒤의 요원을 응시했습니다. 개체의 손과 입엔 수류탄이 있었으며, 배 속에도 다수의 수류탄이 존재하는 것으로 추정됩니다. 이후, 수류탄 격발로 인해 요원 7명이 현장에서 즉사했고, 개체또한 산산조각 났습니다.</p>
                 <br>
                 <p>해당 사건은 군부대 내 폭발물 관리 소홀로 인한 사고로 위장해 유가족에게 통보했습니다.</p>
                 <br>
-                <p>연구팀 소견: 사도 감염체는 위기 상황에서 자폭을 선택하거나 동귀어진하려는 '군집 지성'의 명령을 받는 것으로 보임. 향후 모든 변이체 포획 시 폭발물 소지 여부를 최우선으로 스캔할 것.</p>
+                <p>연구팀 소견: 이상 변이자는 위기 상황에서 자폭을 선택하거나 동귀어진하려는 '군집 지성'의 명령을 받는 것으로 보임. 향후 모든 변이자 포획 시 위협 물건 소지 여부를 최우선으로 스캔할 것.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -262,7 +262,7 @@ const pageData = {
     }
 };
 
-let currentPage = 'APOSTLE_RESEARCH';
+let currentPage = 'JPT_INFORMATION';
 let player = null;
 let bgm = null;
 let bgmStarted = false;
@@ -309,6 +309,9 @@ function loadPage(pageKey) {
             return `<div class="tab ${isActive ? 'active' : ''} ${tab.disabled ? 'disabled' : ''}" data-video="${tab.id}" data-type="${tab.type || 'youtube'}" data-disabled="${tab.disabled || false}">${tab.name}</div>`;
         }).join('');
         
+        // 모든 활성화된 탭의 미디어를 미리 로드
+        preloadAllMedia(data.videoTabs);
+        
         let tabToLoad;
         if (savedTab) {
             tabToLoad = data.videoTabs.find(tab => tab.name === savedTab && !tab.disabled);
@@ -318,7 +321,7 @@ function loadPage(pageKey) {
         }
         
         if (tabToLoad) {
-            loadVideo(tabToLoad.id, tabToLoad.type || 'youtube');
+            showMedia(tabToLoad.name);
             updateVideoText(tabToLoad.name);
             updateBreadcrumbWithFile(tabToLoad.name);
         }
@@ -367,24 +370,99 @@ function updateActiveMenuItem(pageKey) {
     });
 }
 
-function loadVideo(videoId, type = 'youtube') {
+function preloadAllMedia(videoTabs) {
     const videoPlayerContainer = document.querySelector('.video-player');
+    videoPlayerContainer.innerHTML = ''; // 기존 내용 초기화
     
-    if (type === 'vimeo') {
-        videoPlayerContainer.innerHTML = `
-            <iframe 
-                id="vimeo-player"
-                src="https://player.vimeo.com/video/${videoId}?autoplay=0&title=0&byline=0&portrait=0&controls=1&color=e53d2e" 
-                width="100%" 
-                height="100%" 
-                frameborder="0" 
-                allow="autoplay; fullscreen; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-        `;
+    videoTabs.forEach((tab, index) => {
+        if (tab.disabled || !tab.id) return;
         
-        if (window.Vimeo) {
-            const vimeoPlayer = new Vimeo.Player(document.getElementById('vimeo-player'));
+        const mediaWrapper = document.createElement('div');
+        mediaWrapper.className = 'media-wrapper';
+        mediaWrapper.setAttribute('data-file', tab.name);
+        mediaWrapper.style.display = 'none';
+        mediaWrapper.style.width = '100%';
+        mediaWrapper.style.height = '100%';
+        
+        if (tab.type === 'vimeo') {
+            mediaWrapper.innerHTML = `
+                <iframe 
+                    class="vimeo-player"
+                    src="https://player.vimeo.com/video/${tab.id}?autoplay=0&title=0&byline=0&portrait=0&controls=1&color=e53d2e" 
+                    width="100%" 
+                    height="100%" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            `;
+        } else if (tab.type === 'video') {
+            mediaWrapper.innerHTML = `
+                <video controls preload="metadata" style="width: 100%; height: 100%; object-fit: contain;">
+                    <source src="./videos/${tab.id}" type="video/mp4">
+                    비디오를 로드할 수 없습니다.
+                </video>
+            `;
+            
+            const videoElement = mediaWrapper.querySelector('video');
+            
+            videoElement.addEventListener('play', function() {
+                if (bgm) bgm.pause();
+            });
+            
+            videoElement.addEventListener('pause', function() {
+                if (bgm && bgmStarted) bgm.play();
+            });
+            
+            videoElement.addEventListener('ended', function() {
+                if (bgm && bgmStarted) bgm.play();
+            });
+        } else if (tab.type === 'image') {
+            const isVideo = tab.id.match(/\.(mp4|webm|mov)$/i);
+            
+            if (isVideo) {
+                mediaWrapper.innerHTML = `
+                    <video autoplay loop muted playsinline preload="auto" style="width: 100%; height: 100%; object-fit: contain;">
+                        <source src="./images/${tab.id}" type="video/mp4">
+                    </video>
+                `;
+            } else {
+                mediaWrapper.innerHTML = `
+                    <img 
+                        src="./images/${tab.id}" 
+                        alt="Image" 
+                        width="100%" 
+                        height="100%" 
+                        style="object-fit: contain;">
+                `;
+            }
+        }
+        
+        videoPlayerContainer.appendChild(mediaWrapper);
+    });
+}
+
+function showMedia(fileName) {
+    const videoPlayerContainer = document.querySelector('.video-player');
+    const allWrappers = videoPlayerContainer.querySelectorAll('.media-wrapper');
+    
+    // 모든 미디어 숨기고 비디오 일시정지
+    allWrappers.forEach(wrapper => {
+        wrapper.style.display = 'none';
+        const video = wrapper.querySelector('video');
+        if (video && !video.hasAttribute('loop')) {
+            video.pause();
+        }
+    });
+    
+    // 선택된 미디어만 표시
+    const targetWrapper = videoPlayerContainer.querySelector(`[data-file="${fileName}"]`);
+    if (targetWrapper) {
+        targetWrapper.style.display = 'block';
+        
+        // Vimeo 플레이어 이벤트 바인딩
+        if (targetWrapper.querySelector('.vimeo-player') && window.Vimeo) {
+            const vimeoPlayer = new Vimeo.Player(targetWrapper.querySelector('.vimeo-player'));
             
             vimeoPlayer.on('play', function() {
                 if (bgm) bgm.pause();
@@ -396,84 +474,6 @@ function loadVideo(videoId, type = 'youtube') {
             
             vimeoPlayer.on('ended', function() {
                 if (bgm && bgmStarted) bgm.play();
-            });
-        }
-    } else if (type === 'video') {
-        videoPlayerContainer.innerHTML = `
-            <video controls style="width: 100%; height: 100%; object-fit: contain;">
-                <source src="./videos/${videoId}" type="video/mp4">
-                비디오를 로드할 수 없습니다.
-            </video>
-        `;
-        
-        const videoElement = videoPlayerContainer.querySelector('video');
-        
-        // 비디오 로드 에러 확인
-        videoElement.addEventListener('error', function(e) {
-            console.error('비디오 로드 에러:', e);
-            console.error('비디오 경로:', `./videos/${videoId}`);
-        });
-        
-        videoElement.addEventListener('loadeddata', function() {
-            console.log('비디오 로드 성공:', `./videos/${videoId}`);
-        });
-        
-        videoElement.addEventListener('play', function() {
-            if (bgm) bgm.pause();
-        });
-        
-        videoElement.addEventListener('pause', function() {
-            if (bgm && bgmStarted) bgm.play();
-        });
-        
-        videoElement.addEventListener('ended', function() {
-            if (bgm && bgmStarted) bgm.play();
-        });
-    } else if (type === 'image') {
-        const isVideo = videoId.match(/\.(mp4|webm|mov)$/i);
-        
-        if (isVideo) {
-            videoPlayerContainer.innerHTML = `
-                <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: contain;">
-                    <source src="./images/${videoId}" type="video/mp4">
-                </video>
-            `;
-        } else {
-            videoPlayerContainer.innerHTML = `
-                <img 
-                    id="image-player"
-                    src="./images/${videoId}" 
-                    alt="Image" 
-                    width="100%" 
-                    height="100%" 
-                    style="object-fit: contain;">
-            `;
-        }
-    } else {
-        videoPlayerContainer.innerHTML = `
-            <iframe 
-                id="youtube-player"
-                width="100%" 
-                height="100%" 
-                src="https://www.youtube.com/embed/${videoId}?enablejsapi=1&modestbranding=1&rel=0&iv_load_policy=3" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
-            </iframe>
-        `;
-        
-        if (window.YT && window.YT.Player) {
-            player = new YT.Player('youtube-player', {
-                events: {
-                    'onStateChange': function(event) {
-                        if (event.data === YT.PlayerState.PLAYING) {
-                            if (bgm) bgm.pause();
-                        } else if (event.data === YT.PlayerState.ENDED || event.data === YT.PlayerState.PAUSED) {
-                            if (bgm && bgmStarted) bgm.play();
-                        }
-                    }
-                }
             });
         }
     }
@@ -602,7 +602,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (videoId) {
                 sessionStorage.setItem(`jpt_current_tab_${currentPage}`, fileName);
-                loadVideo(videoId, videoType || 'youtube');
+                showMedia(fileName);
                 updateBreadcrumbWithFile(fileName);
                 updateVideoText(fileName);
             }
@@ -643,7 +643,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (videoId) {
                 sessionStorage.setItem(`jpt_current_tab_${currentPage}`, fileName);
-                loadVideo(videoId, videoType || 'youtube');
+                showMedia(fileName);
                 updateBreadcrumbWithFile(fileName);
                 updateVideoText(fileName);
             }
@@ -778,7 +778,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function scheduleNextJumpscare() {
-        const delay = 20000;
+        const delay = 30000;
         setTimeout(() => {
             triggerJumpscareGlitch();
             scheduleNextJumpscare();
