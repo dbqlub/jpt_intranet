@@ -47,20 +47,19 @@ const pageData = {
             <p>[THE APOSTLE OF JUPITER 개요]</p>
             <p>&nbsp;</p>
             <p>보안 등급: D</p>
-            <p>개체 번호: J-001</p>
-            <p>통칭: 목성의 사도</p>
             <p>&nbsp;</p>
-            <p>목성의 사도는 목성 탐사 프로젝트 도중 알 수 없는 이유로 변이한 대원 ████입니다. 변이 과정은 불과 수 분 내에 일어났으며, 현재까지 구체적인 원인은 밝혀지지 않았습니다.</p>
+            <p>개체 번호: J-001</p>
+            <p>별칭: 목성의 사도</p>
+            <p>&nbsp;</p>
+            <p>목성의 사도는 목성 탐사 프로젝트 도중 변이한 대원 ████입니다. 현재까지 구체적인 원인은 밝혀지지 않았습니다.</p>
             <p>&nbsp;</p>
             <p>주요 특징:</p>
-            <p>- 신체 중앙부에 목성의 대적반과 유사한 나선형 구조</p>
-            <p>- 신체 중앙부와 안면부의 개구에서 지속적으로 암흑 물질 배출</p>
-            <p>- 불규칙한 주기로 구멍에서 안광으로 보이는 불빛 식별</p>
-            <p>- 지속적으로 강력한 자기장 방출 (최대 ██ 테슬라)</p>
+            <p>- 신체 중앙부에 목성의 대적반과 유사한 형태의 나선형 개구</p>
+            <p>- 안면부와 복부 개구에서 지속적으로 암흑 물질 배출</p>
+            <p>- 불규칙한 주기로 개구에서 안광으로 보이는 불빛 식별</p>
+            <p>- 지속적으로 강력한 에너지 방출</p>
             <p>&nbsp;</p>
-            <p>현재 목성의 사도는 제7 격리 시설 지하 4층 특수 챔버에 격리되어 있으며, 24시간 감시 체계가 유지되고 있습니다.</p>
-            <p>&nbsp;</p>
-            <p>경고: 개체와의 무단 접촉은 엄격히 금지됩니다.</p>
+            <p>현재 목성의 사도는 제7 격리 시설 지하 4층 특수 챔버에 격리되어 있으며, 24시간 감시 체계가 유지되고 있습니다. 개체와의 무단 접촉은 일체 금지합니다.</p>
         `,
         showVideo: false
     },
@@ -68,31 +67,28 @@ const pageData = {
         breadcrumb: 'THE_APOSTLE_OF_JUPITER // RESEARCH_LOG',
         showVideo: true,
         videoTabs: [
-            { id: 'test.png', name: 'FILE_1', type: 'image' },
-            { id: 'test.png', name: 'FILE_2', type: 'image' },
+            { id: 'image1.png', name: 'FILE_1', type: 'image' },
+            { id: 'image2.png', name: 'FILE_2', type: 'image' },
             { id: '', name: 'FILE_3', disabled: true },
-            { id: 'test.png', name: 'FILE_4', type: 'image' },
-            { id: 'test.png', name: 'FILE_5', type: 'image' },
+            { id: 'image4.png', name: 'FILE_4', type: 'image' },
+            { id: 'image5.png', name: 'FILE_5', type: 'image' },
             { id: '', name: 'FILE_6', disabled: true },
-            { id: 'test.png', name: 'FILE_7', type: 'image' },
-            { id: 'test.png', name: 'FILE_8', type: 'image' },
-            { id: '', name: 'FILE_9', disabled: true },
+            { id: 'image7.png', name: 'FILE_7', type: 'image' },
+            { id: 'image8.png', name: 'FILE_8', type: 'image' },
+            { id: 'image9.gif', name: 'FILE_9', type: 'image' },
             { id: '', name: 'FILE_10', disabled: true },
-            { id: 'test.png', name: 'FILE_11', type: 'image' },
-            { id: 'test.png', name: 'FILE_12', type: 'image' }
+            { id: 'image11.gif', name: 'FILE_11', type: 'image' }
         ],
         videoTitle: '19██-10-07',
         videoTexts: {
             'FILE_1': `
                 <p><span class="en">작성자: Dr. R. K.</span></p>
                 <br>
-                <p>1410i, 정부 지원 하에 이루어진 유인 목성 탐사 임무 중, 낙오된 대원 ████(이하 목성의 사도)이 기괴한 변이했습니다. 변이는 수분 내로 이루어졌으며, 현장 지휘관 [데이터 말소]의 판단으로 확보되었습니다. 당국은 이 사실을 철저히 은폐하고, JPT(Jupiter Project Team)를 설립하여 목성의 사도를 격리했습니다.</p>
+                <p>1410i, 정부 지원 하에 이루어진 유인 목성 탐사 임무 중, 대원 ████이 변이해 현장 지휘관 ████의 판단으로 확보되었습니다. 당국은 이 사실을 철저히 은폐하고, JPT를 설립해 J-001를 격리했습니다.</p>
                 <br>
-                <p>1413i, 목성의 사도는 현재 JPT 소속 제7 격리 시설 지하 4층의 특수 챔버(이하 격리 시설)에 격리 중입니다.</p>
+                <p>1930i, 개체는 현재 JPT 소속 제7 격리 시설 지하 4층의 특수 챔버에 격리 중입니다. 일부 인간의 형태를 유지하고 있으나, 인간으로서의 생사 여부는 알 수 없습니다.</p>
                 <br>
-                <p>1415i, 확보 개체는 일부 인간의 형태를 유지하고 있으나 강력한 자기장을 방출하고 있으며, 피부에 정체를 알 수 없는 붉은 소용돌이 무늬가 불규칙적으로 번지고 있습니다.</p>
-                <br>
-                <p>1415i, 목성의 사도는 의미를 알 수 없는 낮고 그로테스크한 소음만을 간헐적으로 배출하고 있습니다.</p>
+                <p>2030i, 연구원 회의 결과, 목성 인근으로부터 미상의 바이러스가 대원에게 침투한 것으로 추정했습니다. 한 연구원은 목성의 지성체 또는 목성 자체가 무언가의 의도를 가지고 대원을 '목성의 사도'로 변이시켰다고 주장합니다.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -100,11 +96,11 @@ const pageData = {
             'FILE_2': `
                 <p><span class="en">작성자: Dr. R. K.</span></p>
                 <br>
-                <p>1405i, 목성의 사도는 현재까지 격리 챔버 내에서 외형적인 변화 없이 안정적으로 격리 상태를 유지하고 있다. 초기 관찰되었던 붉은 소용돌이 무늬는 여전히 간헐적으로 짙어지거나 옅어지는 패턴을 반복할 뿐이며, 이외 신체적인 변화는 관찰되지 않았습니다.</p>
+                <p>1407i, J-001의 안면부는 미상의 촉수로 인해 뚫려, 개구가 형성되었습니다. 또한, 하반신이 녹아내리기 시작했습니다.</p>
                 <br>
-                <p>1805i, 측정 불가능한 수준의 에너지가 꾸준히 방출되고 있습니다. 이 에너지를 착취하기 위한 억제 기술 및 역이용 기술 연구가 진행 중이나, 아직 실질적인 성과는 도출되지 않았습니다. 챔버 외부의 자기장 왜곡 현상은 미세하게 지속되고 있다.</p>
+                <p>1530i, 개체로부터 측정 불가능한 수준의 에너지가 방출되고 있습니다. 해당 에너지를 착취하기 위한 억제 기술 및 역이용 기술 연구가 진행 중이나, 아직 실질적인 성과는 도출되지 않았습니다.</p>
                 <br>
-                <p>1806i, 지난 6일간 생체 데이터에 큰 변동이 없었습니다. 금일 1300i 검사 결과, 생체 신호는 정상에 가까우나, 심장 박동이 일반적인 인간에 비해 약 2배 빠릅니다.(210BPM)</p>
+                <p>1800i, 지난 6일간 생체 데이터에 큰 변동이 없었습니다. 금일 1300i 검사 결과, 생체 신호는 정상에 가까우나, 심장 박동이 일반적인 인간에 비해 약 2배 빠릅니다.(210BPM)</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -112,11 +108,15 @@ const pageData = {
             'FILE_4': `
                 <p><span class="en">작성자: Dr. R. K.</span></p>
                 <br>
-                <p>1809i, 오늘 격리 시설 내부 온도가 급격히 상승하는 이상 현상이 관측되었습니다. 외부 온도는 21°C로 정상이나, 격리 챔버 내부는 43°C까지 치솟았습니다. 냉각 시스템을 최대 출력으로 가동했으나 온도 하락 효과는 미미했습니다.</p>
+                <p>1809i, 격리 챔버 내부 온도가 급격히 상승하는 이상 현상이 관측되었습니다. 외부 온도는 21°C로 정상이나, 격리 챔버 내부는 43°C까지 치솟았습니다. 냉각 시스템을 최대 출력으로 가동했습니다.</p>
                 <br>
-                <p>1812i, 개체 J-001의 신체 표면에서 미세한 열기류가 관측되고 있습니다. 붉은 소용돌이 무늬의 색상이 평소보다 약 30% 더 선명해졌으며, 불규칙한 맥동 패턴을 보이고 있습니다.</p>
+                <p>2050i, 개체의 하반신이 완전히 녹아내렸습니다. 내부의 장기가 쏟아져 널부러져 있으며, 부패가 진행 중입니다.
                 <br>
-                <p>1814i, 챔버 내부 온도가 51°C에 도달했습니다. 연구원들의 안전을 위해 직접 관찰을 중단하고 원격 감시로 전환했습니다. 개체의 그로테스크한 소음 배출 빈도가 증가했습니다.</p>
+                <p>2053i, J-001이 처음으로 명확한 움직임을 보였습니다. 격리 이후 157일 만에 관측된 최초의 자발적 행동입니다.</p>
+                <br>
+                <p>2135i, 개체의 움직임이 심해지기 시작하더니, 16분에 걸쳐 정자세(로 추정) 일어섰으며, 안면부와 복부에 개구가 식별되었습니다. 정체불명의 악취가 챔버를 뚫고 감지되었습니다.</p>
+                <br>
+                <p>2200i, 챔버 내부 온도가 51°C에 도달했습니다. 연구원들의 안전을 위해 현장 관찰을 중단하고 원격 감시로 전환했습니다. 개체의 그로테스크한 소음 배출 빈도가 증가했습니다.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -124,11 +124,11 @@ const pageData = {
             'FILE_5': `
                 <p><span class="en">작성자: Dr. R. K.</span></p>
                 <br>
-                <p>1900i, 개체 J-001이 처음으로 명확한 움직임을 보였습니다. 격리 이후 12일 만에 관측된 최초의 자발적 행동입니다. 개체는 천천히 고개를 들어 감시 카메라를 응시했습니다.</p>
+                <p>1420i, J-001의 크기가 성장을 지속해, 2m 40cm를 넘겼습니다. 성장세를 지켜보고 격리 챔버 교체 필요 여부를 검토하겠습니다.</p>
                 <br>
-                <p>1903i, 개체의 안면부 개구에서 평소보다 3배 많은 암흑 물질이 배출되고 있습니다. 챔버 바닥에 고인 암흑 물질의 깊이가 약 7cm에 달합니다. 물질의 점성과 밀도가 증가하고 있으며, 정체불명의 악취가 감지되었습니다.</p>
+                <p>1500i, 상부에서 개체의 성장이 잦아드는대로 생체 실험을 진행할 것을 촉구했습니다.</p>
                 <br>
-                <p>1907i, 개체가 입을 벌렸습니다. 구강 내부에서 목성의 대적반과 동일한 패턴의 붉은 소용돌이가 관측되었습니다. 소용돌이는 시계 반대 방향으로 회전하고 있으며, 중심부에서 미약 광원이 감지됩니다.</p>
+                <p style="color: #999999;">"가학적인 새끼. ██ 그 얼간이는 동정심 하나 없어. 현장에 우리 애들을 투입한다고?" - B등급 요원 ████<p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -136,11 +136,17 @@ const pageData = {
             'FILE_7': `
                 <p><span class="en">작성자: Dr. R. K.</span></p>
                 <br>
-                <p>2003i, 개체 J-001 주변에서 중력 이상 현상이 감지되었습니다. 챔버 내부에 설치된 소형 물체들이 개체를 중심으로 약 1.2m 반경 내에서 공중 부양하고 있습니다. 이는 개체가 국소적인 중력장을 생성하고 있음을 시사합니다.</p>
+                <p>1521i, J-001의 성장이 멈췄음을 확인했으며, 격리 챔버에 D등급 요원을 투입해 촉수와 하부에 고정용 사슬을 부착했습니다. 투입한 요원 12명 중 4명이 촉수의 갑작스러운 물리 공격에 의해 사망했습니다.</p>
                 <br>
-                <p>2005i, 부유하는 물체들이 개체 주위를 궤도 운동하기 시작했습니다. 공전 주기는 약 47초이며, 목성의 위성 궤도와 유사한 패턴을 보입니다. 이 현상은 개체가 목성의 특성을 모방하고 있을 가능성을 제기합니다.</p>
+                <p>1600i, 내구도 테스트를 위해 격리실 내부 기압을 120배로 높이고, 중력을 4배 증강했습니다 챔버 벽면에 균열이 발생했으며, 일부 감시 장비가 파손되었습니다. 긴급 격리 강화 프로토콜을 발동했습니다.</p>
                 <br>
-                <p>2008i, 중력장의 강도가 증가하고 있습니다. 챔버 벽면에 균열이 발생했으며, 일부 감시 장비가 파손되었습니다. 긴급 격리 강화 프로토콜을 발동했습니다.</p>
+                <p>1614i, 높은 압력으로 인해 개체의 피부가 으깨지고 [데이터 말소]이 터져 나왔습니다. 강렬한 진동으로 인해 관찰 장비 2대가 손상되었습니다.<p>
+                <br>
+                <p>1615i, 개체의 복부 개구에서 촉수로 추정되는 물체가 다수 돌출했습니다. 또한 정체불명의 괴성을 포효했으나, '괴로움을 흉내내고자 고안한 행동'으로 일축하기로 합의했습니다.<p>
+                <br>
+                <p>1728i, 챔버 내부 온도가 일시적으로 68°C까지 상승했습니다. 연구원들의 안전을 위해 현장 관찰을 중단하고 원격 감시로 전환했습니다.<p>
+                <br>
+                <p style="color: #999999;">"다들 미쳤어. 완전히 미쳤어. 난 모르겠어. 누가 괴물인지." - 객원 연구원 L 박사<p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -148,11 +154,25 @@ const pageData = {
             'FILE_8': `
                 <p><span class="en">작성자: Dr. R. K.</span></p>
                 <br>
-                <p>2104i, 오늘 새벽 0312i, 개체 J-001이 최초로 음성을 발성했습니다. "...돌아가고 싶다..."는 단어가 명확히 식별되었습니다. 음성은 극도로 왜곡되어 있었으나, 분석 결과 변이 이전 대원 ████의 목소리와 87% 일치합니다.</p>
+                <p>1500i, J-001의 구멍에 원격 드론을 투입시킨 결과, 드론은 수분간 비행 끝에 신호를 잃었습니다. 카메라엔 도저히 해석할 수 없는 물체들과, 렌즈를 포함한 드론의 일부가 촬영되었습니다. 긴급 회의 결과, 구멍 내부는 3차원 공간이 아닌 것으로 가정했습니다.</p>
                 <br>
-                <p>2106i, 개체의 발성이 계속되고 있습니다. "집에... 아내... 아이들..." 등의 단편적인 단어들이 반복적으로 들립니다. 이는 개체 내부에 여전히 인간 의식이 잔존하고 있을 가능성을 시사합니다.</p>
+                <p>1600i, 개체의 피부 성분 연구를 위해 50,000V에서 최대 10MV의 전류를 흘려보냈습니다. 개체는 50,000V의 경우 경미한 혼란 반응을 보였으나, 전류를 높일수록 오히려 반응이 잦아들었습니다. 일부 연구원들은 개체가 점차 '적응'하는 것이 아닌지 의문을 제기했습니다.</p>
                 <br>
-                <p>2109i, 개체가 격리 챔버 벽을 향해 손을 뻗었습니다. 접촉 순간 벽면이 약 15cm 깊이로 함몰되었으며, 접촉 지점에서 붉은 소용돌이 무늬가 벽면으로 전이되는 현상이 관측되었습니다. 즉시 개체를 진정시키기 위한 조치를 취했습니다.</p>
+                <p>1634i, 50,000V 실험 이후, 챔버 내부 온도가 점차 상승해, 최대 82°C까지 상승했습니다. 연구원들의 안전을 위해 현장 관찰을 중단하고 원격 감시로 전환했습니다.<p>
+                <br>
+                <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
+                <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
+            `,
+            'FILE_9': `
+                <p><span class="en">작성자: Dr. R. K.</span></p>
+                <br>
+                <p>1005i, 전 세계적으로 이상 변이 현상이 발생했습니다. 불특정 다수의 몸이 뒤틀리고 비이성적인 행동을 한다는 보고가 올라왔습니다. </p>
+                <br>
+                <p>1010i, 개체의 안면부와 복부의 개구에서 안광으로 추정되는 미상의 불빛이 간헐적으로 식별되고 있습니다.</p>
+                <br>
+                <p>1300i, 의회, FBI와의 긴급 공조회의 결과, J-001과 밀접한 관련이 있을 것이라는 가설을 설정하고 개체를 제거하기 위한 절차에 들어갔습니다.</p>
+                <br>
+                <p>2305i, 연구원 ██명이 실종되었습니다. CCTV 확인 결과, 그들은 격리 챔버 방향으로 걸어갔으나 도착 기록이 없습니다.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -160,23 +180,17 @@ const pageData = {
             'FILE_11': `
                 <p><span class="en">작성자: Dr. R. K.</span></p>
                 <br>
-                <p>2307i, 개체 J-001의 신체에서 새로운 변화가 관측되었습니다. 등 부위에 4개의 돌기가 생성되기 시작했으며, 각 돌기의 끝부분에서 미약한 전기 방전이 감지되고 있습니다.</p>
+                <p>1000i, J-001 제거를 위해 한 시간 간격으로 VX, 치클론 B, 염산, 겨자 가스를 이용한 다중 화학 공격을 실시했습니다.</p>
                 <br>
-                <p>2310i, 돌기가 완전히 형성되었습니다. 길이는 각각 약 35cm이며, 촉수처럼 자유롭게 움직입니다. 돌기 표면에도 붉은 소용돌이 무늬가 새겨져 있으며, 개체의 신체와 동기화되어 맥동하고 있습니다.</p>
+                <p>1101i, 다중 화학 공격 결과, 개체는 염산에 미세한 동요를 했으나 금새 적응한듯 합니다. 육안으로 식별되는 수준의 재생력이 확인되었습니다. 임원진 사이에서 공격에 대한 회의적인 여론이 강해졌습니다.</p>
                 <br>
-                <p>2313i, 돌기가 공중의 물체를 포획하는 행동을 보였습니다. 포획된 물체는 돌기에 흡수되어 소멸했습니다. 이는 개체가 외부 물질을 흡수하여 에너지원으로 사용할 수 있음을 의미합니다. 격리 챔버 내 모든 물체를 제거했습니다.</p>
+                <p>1750i, 기존 JPT 연구원의 67%가 이상 변이자로 변이했으며, 신규 연구원 채용률도 5% 미만으로 매우 낮습니다. 누적된 피해로 인해 연구소 시스템의 42%가 가동 불능 상태가 되었습니다.</p>
                 <br>
-                <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
-                <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
-            `,
-            'FILE_12': `
-                <p><span class="en">작성자: Dr. R. K.</span></p>
+                <p>1800i, 세계적인 이상 변이 현상은 지속되고 있으며, 상부는 개체에 대한 핵 공격을 검토하고 있습니다.</p>
                 <br>
-                <p>2501i, 오늘 개체 J-001이 완전히 정지 상태에 들어갔습니다. 모든 움직임이 멈췄으며, 소음 배출도 중단되었습니다. 생체 신호는 감지되나 극도로 미약합니다. 심박수가 분당 12회까지 하락했습니다.</p>
+                <p>2030i, 외부의 정보 통제는 위태롭게 유지되고 있으며, JPT 내부 시스템은 붕괴되기 직전입니다.</p>
                 <br>
-                <p>2504i, 개체의 신체 표면에서 결정화 현상이 관측되고 있습니다. 붉은 소용돌이 무늬가 고체화되면서 유리처럼 투명한 결정 구조로 변화하고 있습니다. 결정 내부에서 미약한 빛의 맥동이 관측됩니다.</p>
-                <br>
-                <p>2507i, 개체가 완전히 결정화되었습니다. 외형은 인간의 형태를 유지하고 있으나, 전체가 붉은 빛을 발하는 투명한 결정체로 변화했습니다. 이것이 변이의 최종 단계인지, 아니면 새로운 변화의 시작인지는 불명확합니다. 지속적인 관찰이 필요합니다.</p>
+                <p style="color: #999999;">"젠장, 목성의 혹독한 환경에서도 살아왔다 이건가? 아무 소용이 없군." - 화생방 부대 K 대령<p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -190,16 +204,13 @@ const pageData = {
             <p>&nbsp;</p>
             <p>보안 등급: D</p>
             <p>&nbsp;</p>
-            <p>JPT는 목성 탐사 프로젝트 후 다양한 이 현상들을 관찰하고 있습니다. 이러한 현상들은 기존 과학으로는 설명할 수 없는 특성들을 보이고 있습니다.</p>
+            <p>████년 ██월 ██일을 기점으로 이상 변이 현상이 발생했습니다. 변이를 겪는 이상 변이자는 기괴하게 몸이 뒤틀리고,알 수 없는 말을 지껄이는 등의 비이성적인 행동을 합니다. 전 세계에서 동시다발적으로 발생하고 있으며, 목성의 사도(J-001)과 밀접한 관련이 있으리라 추정하고 있습니다.</p>
             <p>&nbsp;</p>
             <p>현재까지 기록된 주요 이상 현상:</p>
             <p>&nbsp;</p>
-            <p>A-001: 자기장 이상 - 목성 표면에서 관측된 비정상적 자기장 패턴</p>
-            <p>A-002: 생체 변이 - J-001 포함한 여타 생명체 급격한 변이</p>
-            <p>A-003: 시공간 왜곡 - 특정 지역서 관측된 시간 흐름의 불일치</p>
-            <p>A-004: [데이터 말소]</p>
+            <p>JPT는 상부의 지시에 의거해, 47개국에 지부를 설치하고 이상 변이 현상에 대한 정보를 통제를 실시하고 있습니다.
             <p>&nbsp;</p>
-            <p>모든 이상 현상은 지속적으로 모니터링되고 있으며, 관련 데이터는 CENSORED_MEDIA 섹션에 보관되어 있습니다.</p>
+            <p>이상 변이 현상은 지속적으로 모니터링되고 있으며, 일부 데이터는 CENSORED_MEDIA 섹션에 보관되어 있습니다.</p>
         `,
         showVideo: false
     },
@@ -215,65 +226,54 @@ const pageData = {
             { id: '', name: 'FILE_6', type: 'youtube', disabled: true },
             { id: '', name: 'FILE_7', type: 'youtube', disabled: true }
         ],
-        videoTitle: 'UNKNOWN_SIGNAL_RECORD',
+        videoTitle: 'NEWS',
         videoTexts: {
             'FILE_1': `
-                <p><span class="en">FILE: UNKNOWN_SIGNAL_RECORD</span></p>
-                <p><span class="en">DATE:</span> <span class="en">1415i</span></p>
-                <p><span class="en">SOURCE:</span> <span class="en">DEEP_SPACE_ARRAY_07</span></p>
-                <p><span class="en">FREQUENCY:</span> <span class="en">██.██ MHz</span></p>
+                <p>출처: NSK 방송국</p>
+                <p>위치: 미국 워싱턴 D.C., 백악관 북쪽 잔디밭</p>
+                <p>대상: NSK 소속 리포터 ███</p>
+                <p>일시: ████년 ██월 ██일 1804i</p>
+                <p>상태: 해당 방송 송출 강제 중단 완료 / 비디오 수거 완료</p>
                 <br>
-                <p><span class="en">DESCRIPTION:</span></p>
-                <p>목성 궤도에서 수신된 정체불명의 신호 패턴입니다. 반복적인 주기를 보이며, 자연 현상으로는 설명할 수 없는 구조를 가지고 습다.</p>
+                <p>백악관에서 발생한 이상 변이 현상에 대해 보도하던 리포터가 이상 변이를 겪는 비디오입니다. 리포터의 경추가 비정상적으로 연장되며, 안면 근육이 파열될 정도로 입꼬리가 올라가는 전형적인 변이의 형태가 포착됩니다. 이후, 리포터의 언어 중추에 간섭이 발생하여 특정 문장이 송출됩니다.</p>
                 <br>
-                <p class="en">CORE CONTENTS:</p>
-                <p>- 비정상적인 주파수 패턴 감지</p>
-                <p>- 반복 주기: 약 ██분 ██초</p>
-                <p>- 지적 설계 가능성: 87%</p>
+                <p>해당 방송사의 위성 송출 신호를 14초 만에 차단했습니다. 시청자들에게는 "태양 흑점 폭발로 인한 통신 장애"라는 해명을 유포했습니다. 현장에 있던 카메라맨 및 스태프는 전원 실종 처리되었습니다.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
-                <p style="color: #e53d2e;">이 신호의 출처와 의미는 현재 분석 중입니다. 무단 복제 및 외부 유출 시 즉시 처벌됩니다.</p>
+                <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
             `,
             'FILE_4': `
-                <p><span class="en">FILE: CONTAINMENT_BREACH_FOOTAGE</span></p>
-                <p><span class="en">DATE:</span> <span class="en">[REDACTED]</span></p>
-                <p><span class="en">LOCATION:</span> <span class="en">FACILITY 7 - SECTOR B</span></p>
-                <p><span class="en">INCIDENT_CODE:</span> <span class="en">RED-ALPHA-7</span></p>
+                <p>출처: B등급 요원 ██의 바디캠</p>
+                <p>위치: 대한민국 육군 제23 병기고</p>
+                <p>대상: 이종범 병장</p>
+                <p>일시: ████년 ██월 ██일 1804i</p>
+                <p>상태: 비디오 수거 완료</p>
                 <br>
-                <p><span class="en">DESCRIPTION:</span></p>
-                <p>제7 격리 시설에서 생한 격리 실패 사건의 감시 카메라 영상입니다. 사건 당시 ██명의 연구원과 보안 요원이 실종되었습니다.</p>
+                <p>변이 징후가 포착되어 체포 팀이 출동했고, '이종범 병장'을 대한민국 제3 격리 시설로 이송하기 위해 현장에 도착했습니다. 개체는 벽을 바라보며 미약한 움직임만을 반복하고 있었으나, 대상의 경추가 뒤틀리며 등 뒤의 요원을 응시했습니다. 개체의 손과 입엔 수류탄이 있었으며, 배 속에도 다수의 수류탄이 존재하는 것으로 추정됩니다. 이후, 수류탄 격발로 인해 요원 7명이 현장에서 즉사했고, 개체또한 산산조각 났습니다.</p>
                 <br>
-                <p class="en">CORE CONTENTS:</p>
-                <p>- 격리 프로토콜 실패 (T+0:00)</p>
-                <p>- 개체 이상 행동 관측 (T+2:15)</p>
-                <p>- 긴급 대피 명령 발동 (T+5:43)</p>
-                <p>- [데이터 손상] (T+7:██)</p>
+                <p>해당 사건은 군부대 내 폭발물 관리 소홀로 인한 사고로 위장해 유가족에게 통보했습니다.</p>
+                <br>
+                <p>연구팀 소견: 사도 감염체는 위기 상황에서 자폭을 선택하거나 동귀어진하려는 '군집 지성'의 명령을 받는 것으로 보임. 향후 모든 변이체 포획 시 폭발물 소지 여부를 최우선으로 스캔할 것.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
-                <p style="color: #e53d2e;">본 자료는 극비로 분류되어 있습니다. A등급 이상 보안 인가 없이 열람 시 즉시 금됩니다.</p>
+                <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
             `
         }
     }
 };
 
 let currentPage = 'APOSTLE_RESEARCH';
-
-// YouTube Player 전역 변수
 let player = null;
 let bgm = null;
 let bgmStarted = false;
 
-// 페이지 로드
 function loadPage(pageKey) {
     const data = pageData[pageKey];
     if (!data) return;
 
     currentPage = pageKey;
-    
-    // localStorage에 현재 페이지 저장
-    localStorage.setItem('jpt_current_page', pageKey);
+    sessionStorage.setItem('jpt_current_page', pageKey);
 
-    // 브레드크럼 업데이트
     const breadcrumb = document.getElementById('breadcrumb');
     breadcrumb.innerHTML = data.breadcrumb.split(' > ').map((part, index, arr) => {
         if (index === arr.length - 1) {
@@ -285,11 +285,9 @@ function loadPage(pageKey) {
         }
     }).join('');
 
-    // 컨텐츠 업데이트
     const documentText = document.querySelector('.document-text');
     documentText.innerHTML = data.content;
 
-    // 비디오 프레임과 메인 컨텐츠 표시/숨김
     const videoFrame = document.querySelector('.video-frame');
     const mainContent = document.querySelector('.main-content');
     
@@ -301,21 +299,16 @@ function loadPage(pageKey) {
         mainContent.style.display = 'block';
     }
 
-    // 비디오 탭 업데이트
     const videoTabsContainer = document.querySelector('.video-tabs');
-    const videoPlayerContainer = document.querySelector('.video-player');
     
     if (data.videoTabs) {
-        // localStorage에서 저장된 탭 가져오기
-        const savedTab = localStorage.getItem(`jpt_current_tab_${pageKey}`);
+        const savedTab = sessionStorage.getItem(`jpt_current_tab_${pageKey}`);
         
         videoTabsContainer.innerHTML = data.videoTabs.map((tab, index) => {
-            // 저장된 탭이 있으면 해당 탭을 active로, 없으면 첫 번째 활성화된 탭을 active로
             const isActive = savedTab ? (tab.name === savedTab && !tab.disabled) : (index === 0 && !tab.disabled);
             return `<div class="tab ${isActive ? 'active' : ''} ${tab.disabled ? 'disabled' : ''}" data-video="${tab.id}" data-type="${tab.type || 'youtube'}" data-disabled="${tab.disabled || false}">${tab.name}</div>`;
         }).join('');
         
-        // 저장된 탭이 있으면 해당 탭 로드, 없으면 첫 번째 활성화된 비디오 로드
         let tabToLoad;
         if (savedTab) {
             tabToLoad = data.videoTabs.find(tab => tab.name === savedTab && !tab.disabled);
@@ -333,7 +326,6 @@ function loadPage(pageKey) {
         videoTabsContainer.innerHTML = '';
     }
 
-    // 비디오 제목 업데이트
     const videoTitle = document.querySelector('.video-title');
     if (data.videoTitle) {
         videoTitle.textContent = data.videoTitle;
@@ -341,16 +333,13 @@ function loadPage(pageKey) {
         videoTitle.textContent = '';
     }
     
-    // 해당 메뉴 아이템 활성화
     updateActiveMenuItem(pageKey);
 }
 
-// 메뉴 아이템 활성화 상태 업데이트
 function updateActiveMenuItem(pageKey) {
     const menuItems = document.querySelectorAll('.menu-item');
     menuItems.forEach(item => item.classList.remove('active'));
     
-    // pageKey에 따라 해당 메뉴 아이템 찾기
     const pageToMenuMap = {
         'JPT_INFORMATION': { section: 'JPT', menu: 'INFORMATION' },
         'PROJECT_JUPITER_INFORMATION': { section: 'PROJECT_JUPITER', menu: 'INFORMATION' },
@@ -378,12 +367,10 @@ function updateActiveMenuItem(pageKey) {
     });
 }
 
-// 비디오 로드 함수 (YouTube 또는 Vimeo)
 function loadVideo(videoId, type = 'youtube') {
     const videoPlayerContainer = document.querySelector('.video-player');
     
     if (type === 'vimeo') {
-        // Vimeo iframe 생성 (UI 최소화 파라미터 추가)
         videoPlayerContainer.innerHTML = `
             <iframe 
                 id="vimeo-player"
@@ -396,7 +383,6 @@ function loadVideo(videoId, type = 'youtube') {
             </iframe>
         `;
         
-        // Vimeo Player API 로드 및 이벤트 리스너 추가
         if (window.Vimeo) {
             const vimeoPlayer = new Vimeo.Player(document.getElementById('vimeo-player'));
             
@@ -413,7 +399,6 @@ function loadVideo(videoId, type = 'youtube') {
             });
         }
     } else if (type === 'image') {
-        // 이미지 로드
         videoPlayerContainer.innerHTML = `
             <img 
                 id="image-player"
@@ -424,7 +409,6 @@ function loadVideo(videoId, type = 'youtube') {
                 style="object-fit: contain;">
         `;
     } else {
-        // YouTube iframe 생성
         videoPlayerContainer.innerHTML = `
             <iframe 
                 id="youtube-player"
@@ -438,7 +422,6 @@ function loadVideo(videoId, type = 'youtube') {
             </iframe>
         `;
         
-        // YouTube Player 재초기���
         if (window.YT && window.YT.Player) {
             player = new YT.Player('youtube-player', {
                 events: {
@@ -455,47 +438,41 @@ function loadVideo(videoId, type = 'youtube') {
     }
 }
 
-// 브레드크럼 및 비디오 제목 업데이트 함수
 function updateBreadcrumbWithFile(fileName) {
     const data = pageData[currentPage];
     if (!data) return;
     
-    // 비디오 제목 매핑
     const videoTitleMap = {
         'APOSTLE_RESEARCH': {
             'FILE_1': '19██-10-07',
-            'FILE_2': '19██-10-14',
-            'FILE_3': '19██-10-21',
-            'FILE_4': '19██-10-28',
-            'FILE_5': '19██-11-04',
-            'FILE_6': '19██-11-11',
-            'FILE_7': '19██-11-18',
-            'FILE_8': '19██-11-25',
-            'FILE_9': '19██-12-02',
-            'FILE_10': '19██-12-09',
-            'FILE_11': '19██-12-16',
-            'FILE_12': '19██-12-23'
+            'FILE_2': '19██-10-24',
+            'FILE_3': '19██-11-21',
+            'FILE_4': '19██-12-03',
+            'FILE_5': '19██-01-12',
+            'FILE_6': '19██-01-29',
+            'FILE_7': '19██-02-05',
+            'FILE_8': '19██-03-25',
+            'FILE_9': '19██-04-02',
+            'FILE_10': '19██-05-09',
+            'FILE_11': '19██-07-02'
         },
         'ANOMALIES_MEDIA': {
-            'FILE_1': 'UNKNOWN_SIGNAL_RECORD',
-            'FILE_4': 'CONTAINMENT_BREACH_FOOTAGE'
+            'FILE_1': 'NEWS',
+            'FILE_4': 'BODYCAM'
         }
     };
     
     const videoTitle = videoTitleMap[currentPage]?.[fileName] || fileName;
     
-    // 비디오 제목 업데이트
     const videoTitleElement = document.querySelector('.video-title');
     if (videoTitleElement) {
         videoTitleElement.textContent = videoTitle;
     }
     
-    // 브레드크럼 업데이트
     const breadcrumb = document.getElementById('breadcrumb');
     breadcrumb.innerHTML = `<span>${data.breadcrumb}</span><span class="separator"> // </span><span class="current">${fileName} (${videoTitle})</span>`;
 }
 
-// 비디오 텍스트 업데이트 함수
 function updateVideoText(fileName) {
     const data = pageData[currentPage];
     if (!data || !data.videoTexts) return;
@@ -503,27 +480,21 @@ function updateVideoText(fileName) {
     const videoText = data.videoTexts[fileName];
     if (!videoText) return;
     
-    // 비디오 텍스트 업데이트
     const videoTextElement = document.querySelector('.video-text');
     if (videoTextElement) {
         videoTextElement.innerHTML = videoText;
     }
 }
 
-// 초기화
 document.addEventListener('DOMContentLoaded', function() {
-    // BGM 초기화 (자동 재생 안함)
     bgm = document.getElementById('bgm');
-    bgm.volume = 0.2; // 볼륨을 20%로 설정 (0.0 ~ 1.0)
-    let isVideoPlaying = false;
+    bgm.volume = 0.2;
 
-    // 고 배너 스크롤 애니메이션 활성화
     const warningText = document.querySelector('.warning-text');
     if (warningText) {
         warningText.classList.add('scrolling');
     }
 
-    // 첫 클릭 시 BGM 재생
     document.body.addEventListener('click', function initBGM() {
         if (!bgmStarted) {
             bgm.play().catch(err => console.log('BGM play error:', err));
@@ -531,7 +502,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }, { once: true });
 
-    // 햄버거 메뉴 기능 (모바일)
     const hamburger = document.getElementById('hamburger');
     const sidebar = document.querySelector('.sidebar');
     const overlay = document.getElementById('overlay');
@@ -548,13 +518,11 @@ document.addEventListener('DOMContentLoaded', function() {
         overlay.classList.remove('show');
     });
 
-    // YouTube IFrame API 로드
     const tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
     const firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-    // YouTube IFrame API 준비 완료 시 호출되는 함수
     window.onYouTubeIframeAPIReady = function() {
         player = new YT.Player('youtube-player', {
             events: {
@@ -563,26 +531,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     };
 
-    // 비디오 상태 변경 시 호출되는 함수
     function onPlayerStateChange(event) {
-        // 재생 중일 때 (YT.PlayerState.PLAYING = 1)
         if (event.data === YT.PlayerState.PLAYING) {
             bgm.pause();
-            isVideoPlaying = true;
-        }
-        // 종료되었을 때 (YT.PlayerState.ENDED = 0) 또는 일시정지 (YT.PlayerState.PAUSED = 2)
-        else if (event.data === YT.PlayerState.ENDED || event.data === YT.PlayerState.PAUSED) {
+        } else if (event.data === YT.PlayerState.ENDED || event.data === YT.PlayerState.PAUSED) {
             if (bgmStarted) {
                 bgm.play();
             }
-            isVideoPlaying = false;
         }
     }
 
-    // 탭 전환 기능 (동적으로 생성되는 탭에 대응)
     document.addEventListener('click', function(e) {
         if (e.target.classList.contains('tab')) {
-            // disabled 탭 클릭 시 접근 거부 메시지 표시
             const isDisabled = e.target.getAttribute('data-disabled') === 'true';
             if (isDisabled) {
                 const accessDenied = document.getElementById('access-denied');
@@ -595,31 +555,22 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             const tabs = document.querySelectorAll('.tab');
-            
             tabs.forEach(t => t.classList.remove('active'));
             e.target.classList.add('active');
             
-            // 비디오 ID와 타입 가져오기
             const videoId = e.target.getAttribute('data-video');
             const videoType = e.target.getAttribute('data-type');
             const fileName = e.target.textContent.trim();
             
             if (videoId) {
-                // localStorage에 현재 탭 저장
-                localStorage.setItem(`jpt_current_tab_${currentPage}`, fileName);
-                
-                // 비디오 로드
+                sessionStorage.setItem(`jpt_current_tab_${currentPage}`, fileName);
                 loadVideo(videoId, videoType || 'youtube');
-                
-                // 브레드크럼과 비디오 제목 업데이트
                 updateBreadcrumbWithFile(fileName);
-                // 비디오 텍스트 업데이트
                 updateVideoText(fileName);
             }
         }
     });
 
-    // 화살표 버튼 클릭 이벤트 (열람 가능한 파일 간 이동)
     document.addEventListener('click', function(e) {
         if (e.target.classList.contains('control-left') || e.target.classList.contains('control-right')) {
             const allTabs = Array.from(document.querySelectorAll('.tab'));
@@ -627,12 +578,10 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (!activeTab) return;
             
-            // 열람 가능한 탭들만 필터링 (disabled가 아닌 탭들)
             const enabledTabs = allTabs.filter(tab => tab.getAttribute('data-disabled') !== 'true');
             
             if (enabledTabs.length === 0) return;
             
-            // 현재 활성화된 탭의 인덱스 찾기
             const currentIndex = enabledTabs.findIndex(tab => tab.classList.contains('active'));
             
             if (currentIndex === -1) return;
@@ -640,56 +589,42 @@ document.addEventListener('DOMContentLoaded', function() {
             let nextIndex;
             
             if (e.target.classList.contains('control-right')) {
-                // 오른쪽 화살표: 다음 파일로 (순환)
                 nextIndex = (currentIndex + 1) % enabledTabs.length;
             } else {
-                // 왼쪽 화살표: 이전 파일로 (순환)
                 nextIndex = (currentIndex - 1 + enabledTabs.length) % enabledTabs.length;
             }
             
-            // 모든 탭에서 active 제거
             allTabs.forEach(tab => tab.classList.remove('active'));
             
-            // 다음 탭에 active 추가
             const nextTab = enabledTabs[nextIndex];
             nextTab.classList.add('active');
             
-            // 비디오 로드
             const videoId = nextTab.getAttribute('data-video');
             const videoType = nextTab.getAttribute('data-type');
             const fileName = nextTab.textContent.trim();
             
             if (videoId) {
-                // localStorage에 현재 탭 저장
-                localStorage.setItem(`jpt_current_tab_${currentPage}`, fileName);
-                
+                sessionStorage.setItem(`jpt_current_tab_${currentPage}`, fileName);
                 loadVideo(videoId, videoType || 'youtube');
-                // 브레드크럼과 비디오 제목 업데이트
                 updateBreadcrumbWithFile(fileName);
-                // 비디오 텍스트 업데이트
                 updateVideoText(fileName);
             }
         }
     });
 
-    // 홈 버튼 클릭 이벤트
     const homeButton = document.getElementById('home-button');
     homeButton.addEventListener('click', function() {
         loadPage('JPT_INFORMATION');
-        // 모든 메뉴 아이템의 active 클래스 제거
         document.querySelectorAll('.menu-item').forEach(item => {
             item.classList.remove('active');
         });
-        // 첫 번째 INFORMATION에 active 추가
         document.querySelectorAll('.menu-item')[0].classList.add('active');
     });
 
-    // 메뉴 아이템 클릭 이벤트
     const menuItems = document.querySelectorAll('.menu-item');
     
-    menuItems.forEach((item, index) => {
+    menuItems.forEach((item) => {
         item.addEventListener('click', function() {
-            // 비활성화된 버튼 처리
             if (this.classList.contains('disabled')) {
                 const accessDenied = document.getElementById('access-denied');
                 accessDenied.classList.add('show');
@@ -700,12 +635,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
 
-            // 모든 active 클래스 제거
             menuItems.forEach(i => i.classList.remove('active'));
-            // 클릭한 아이템에 active 클래스 추가
             this.classList.add('active');
 
-            // 페이지 매핑
             const menuText = this.textContent.trim();
             const previousDivider = Array.from(this.parentElement.children)
                 .slice(0, Array.from(this.parentElement.children).indexOf(this))
@@ -735,30 +667,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // 접근 거부 메시지 클릭 시 닫기
     const accessDenied = document.getElementById('access-denied');
     accessDenied.addEventListener('click', function() {
         this.classList.remove('show');
     });
 
-    // 현재 페이지 로드
-    const savedPage = localStorage.getItem('jpt_current_page');
+    const savedPage = sessionStorage.getItem('jpt_current_page');
     if (savedPage) {
         loadPage(savedPage);
     } else {
         loadPage(currentPage);
     }
 
-    // 글리치 효과 시스템
     function triggerGlitchEffect() {
-        // 화면 글리치
         const container = document.querySelector('.container');
         container.classList.add('screen-glitch');
         setTimeout(() => {
             container.classList.remove('screen-glitch');
         }, 200);
 
-        // 헤더 타이틀 글리치
         const headerTitle = document.querySelector('.header-title');
         if (headerTitle && Math.random() > 0.5) {
             headerTitle.classList.add('glitch-effect', 'active');
@@ -768,7 +695,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 300);
         }
 
-        // 브레드크럼 글리치
         const breadcrumb = document.getElementById('breadcrumb');
         if (breadcrumb && Math.random() > 0.6) {
             breadcrumb.classList.add('glitch-effect', 'active');
@@ -779,61 +705,47 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // 랜덤 글리치 트리거 (5~15초마다)
     function scheduleNextGlitch() {
-        const delay = Math.random() * 10000 + 5000; // 5초 ~ 15초
+        const delay = Math.random() * 10000 + 5000;
         setTimeout(() => {
             triggerGlitchEffect();
             scheduleNextGlitch();
         }, delay);
     }
 
-    // 글리치 효과 시작
     scheduleNextGlitch();
 
-    // 공포 점프스퀘어 글리치 효과 (매우 간헐적)
     function triggerJumpscareGlitch() {
         const jumpscare = document.getElementById('jumpscare-glitch');
         const img = jumpscare.querySelector('img');
         
-        // 화면 글리치 효과도 함께 발동
         triggerGlitchEffect();
         
-        // 랜덤으로 3가지 스케일 중 하나 선택 (큰 크기로 변경)
         const scales = [1.3, 1.5, 1.7];
         const randomScale = scales[Math.floor(Math.random() * scales.length)];
+        const randomX = (Math.random() - 0.5) * 30;
+        const randomY = (Math.random() - 0.5) * 30;
+        const randomRotation = (Math.random() - 0.5) * 40;
         
-        // 랜덤 위치 (±15% 범위)
-        const randomX = (Math.random() - 0.5) * 30; // -15% ~ 15%
-        const randomY = (Math.random() - 0.5) * 30; // -15% ~ 15%
-        
-        // 랜덤 회전 (±20도 범위)
-        const randomRotation = (Math.random() - 0.5) * 40; // -20 ~ 20도
-        
-        // 기본 transform에 랜덤 위치, 회전, 스케일 적용
         img.style.transform = `translate(${randomX}%, ${randomY}%) rotate(${randomRotation}deg) scale(${randomScale})`;
         
         jumpscare.classList.add('trigger');
         
-        // 애니메이션 완료 후 클래스 제거
         setTimeout(() => {
             jumpscare.classList.remove('trigger');
-            // transform 초기화
             setTimeout(() => {
                 img.style.transform = '';
             }, 100);
         }, 700);
     }
 
-    // 랜덤 점프스퀘어 트리거 (20초마다)
     function scheduleNextJumpscare() {
-        const delay = 20000; // 20초
+        const delay = 20000;
         setTimeout(() => {
             triggerJumpscareGlitch();
             scheduleNextJumpscare();
         }, delay);
     }
 
-    // 점프스퀘어 효과 시작
     scheduleNextJumpscare();
 });

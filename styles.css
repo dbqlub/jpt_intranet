@@ -825,7 +825,7 @@ body {
     }
 }
 
-/* ========== 반응형: 모바/태블릿 공통 (1024px 이하) ========== */
+/* ========== 반응형: 모바일/태블릿 공통 (1024px 이하) ========== */
 @media screen and (max-width: 1024px) {
     body {
         text-transform: none;
@@ -952,7 +952,7 @@ body {
 
 /* ========== 반응형: 중형 데스크톱 (1441px ~ 1920px) ========== */
 @media screen and (min-width: 1441px) and (max-width: 1920px) {
-    /* CSS 변수가 자으로 clamp()로 조정됨 */
+    /* CSS 변수가 자동으로 clamp()로 조정됨 */
 }
 
 /* ========== 반응형: 대형 데스크톱 (1921px 이상) ========== */
@@ -1001,7 +1001,7 @@ body {
     }
 }
 
-/* ========== 반응형: 가 모드 최적화 ========== */
+/* ========== 반응형: 가로 모드 최적화 ========== */
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     :root {
         --header-height: 45px;
