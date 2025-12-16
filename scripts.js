@@ -6,7 +6,7 @@ const pageData = {
             <p>[JPT 개요]</p>
             <p>&nbsp;</p>
             <p><span class="en">보안 등급: D</span></p>
-            <p><span class="en">설립일:</span> 19██년 ██월 ██일</p>
+            <p><span class="en">설립일:</span> ████년 ██월 ██일</p>
             <p>&nbsp;</p>
             <p><span class="en">JPT(JUPITER PROJECT TEAM)</span>는 목성 탐사 프로젝트 이후 발생한 목성의 사도 및 이상 변이자들을 격리하고 연구하기 위해 설립된 단체입니다.</p>
             <p>&nbsp;</p>
@@ -29,9 +29,9 @@ const pageData = {
             <p>[PROJECT JUPITER 개요]</p>
             <p>&nbsp;</p>
             <p>보안 등급: D</p>
-            <p>탐사일: 19██년 ██월 ██일</p>
+            <p>탐사일: ████년 ██월 ██일</p>
             <p>&nbsp;</p>
-            <p>PROJECT JUPITER는 인류 최초의 유인 목성 탐사 프로젝트입니다. 19██년에 시작된 이 프로젝트는 궁극적으로 지적 생명체 존재 가능성에 대한 조사를 목표로 합니다.</p>
+            <p>PROJECT JUPITER는 인류 최초의 유인 목성 탐사 프로젝트입니다. ████년에 시작된 이 프로젝트는 궁극적으로 지적 생명체 존재 가능성에 대한 조사를 목표로 합니다.</p>
             <p>&nbsp;</p>
             <p>1409i, 탐사선 "GALILEO II"가 목성의 궤도에 성공적으로 진입했습니다.</p>
             <p>&nbsp;</p>
@@ -75,11 +75,11 @@ const pageData = {
             { id: '', name: 'FILE_6', disabled: true },
             { id: 'image7.png', name: 'FILE_7', type: 'image' },
             { id: 'image8.png', name: 'FILE_8', type: 'image' },
-            { id: 'image9.gif', name: 'FILE_9', type: 'image' },
+            { id: 'image9.mp4', name: 'FILE_9', type: 'image' },
             { id: '', name: 'FILE_10', disabled: true },
-            { id: 'image11.gif', name: 'FILE_11', type: 'image' }
+            { id: 'image11.mp4', name: 'FILE_11', type: 'image' }
         ],
-        videoTitle: '19██-10-07',
+        videoTitle: '████-10-07',
         videoTexts: {
             'FILE_1': `
                 <p><span class="en">작성자: Dr. R. K.</span></p>
@@ -88,7 +88,7 @@ const pageData = {
                 <br>
                 <p>1930i, 개체는 현재 JPT 소속 제7 격리 시설 지하 4층의 특수 챔버에 격리 중입니다. 일부 인간의 형태를 유지하고 있으나, 인간으로서의 생사 여부는 알 수 없습니다.</p>
                 <br>
-                <p>2030i, 연구원 회의 결과, 목성 인근으로부터 미상의 바이러스가 대원에게 침투한 것으로 추정했습니다. 한 연구원은 목성의 지성체 또는 목성 자체가 무언가의 의도를 가지고 대원을 '목성의 사도'로 변이시켰다고 주장합니다.</p>
+                <p>2030i, 연구원 회의 결과, 목성 인근으로부터 미상의 바이러스가 대원에게 침투한 것으로 추정했습니다. 한 연구 목성의 지성체 또는 목성 자체가 무언가의 의도를 가지고 대원을 '목성의 사도'로 변이시켰다고 주장합니다.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -110,11 +110,11 @@ const pageData = {
                 <br>
                 <p>1809i, 격리 챔버 내부 온도가 급격히 상승하는 이상 현상이 관측되었습니다. 외부 온도는 21°C로 정상이나, 격리 챔버 내부는 43°C까지 치솟았습니다. 냉각 시스템을 최대 출력으로 가동했습니다.</p>
                 <br>
-                <p>2050i, 개체의 하반신이 완전히 녹아내렸습니다. 내부의 장기가 쏟아져 널부러져 있으며, 부패가 진행 중입니다.
+                <p>2050i, 개체의 하반신이 완전히 녹아내렸습니다. 내부의 장기가 쏟아져 널부러져 있으며, 부패가 진행 중입니다.</p>
                 <br>
                 <p>2053i, J-001이 처음으로 명확한 움직임을 보였습니다. 격리 이후 157일 만에 관측된 최초의 자발적 행동입니다.</p>
                 <br>
-                <p>2135i, 개체의 움직임이 심해지기 시작하더니, 16분에 걸쳐 정자세(로 추정) 일어섰으며, 안면부와 복부에 개구가 식별되었습니다. 정체불명의 악취가 챔버를 뚫고 감지되었습니다.</p>
+                <p>2135i, 개체의 움직임이 심해지기 시작하더니, 16분에 걸쳐 정자세(로 추정) 일어섰으며, 안면부와 부 개구가 식별되었습니다. 정체불명의 악취가 챔버를 뚫고 감지되었습니다.</p>
                 <br>
                 <p>2200i, 챔버 내부 온도가 51°C에 도달했습니다. 연구원들의 안전을 위해 현장 관찰을 중단하고 원격 감시로 전환했습니다. 개체의 그로테스크한 소음 배출 빈도가 증가했습니다.</p>
                 <br>
@@ -128,7 +128,7 @@ const pageData = {
                 <br>
                 <p>1500i, 상부에서 개체의 성장이 잦아드는대로 생체 실험을 진행할 것을 촉구했습니다.</p>
                 <br>
-                <p style="color: #999999;">"가학적인 새끼. ██ 그 얼간이는 동정심 하나 없어. 현장에 우리 애들을 투입한다고?" - B등급 요원 ████<p>
+                <p style="color: #999999;">"가학적인 새끼. ██ 그 얼간이는 동정심 하나 없어. 현장에 우리 애들을 투입한다고?" - B등급 요원 ████</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -138,15 +138,15 @@ const pageData = {
                 <br>
                 <p>1521i, J-001의 성장이 멈췄음을 확인했으며, 격리 챔버에 D등급 요원을 투입해 촉수와 하부에 고정용 사슬을 부착했습니다. 투입한 요원 12명 중 4명이 촉수의 갑작스러운 물리 공격에 의해 사망했습니다.</p>
                 <br>
-                <p>1600i, 내구도 테스트를 위해 격리실 내부 기압을 120배로 높이고, 중력을 4배 증강했습니다 챔버 벽면에 균열이 발생했으며, 일부 감시 장비가 파손되었습니다. 긴급 격리 강화 프로토콜을 발동했습니다.</p>
+                <p>1600i, 내구도 테스트를 위해 격리실 내부 기압을 120배로 높이고, 중력을 4배 증강했습니다. 챔버 벽면에 균열이 발생했으며, 일부 감시 장비가 파손되었습니다. 긴급 격리 강화 프로토콜을 발동했습니다.</p>
                 <br>
-                <p>1614i, 높은 압력으로 인해 개체의 피부가 으깨지고 [데이터 말소]이 터져 나왔습니다. 강렬한 진동으로 인해 관찰 장비 2대가 손상되었습니다.<p>
+                <p>1614i, 높은 압력으로 인해 개체의 피부가 으깨지고 [데이터 말소]이 터져 나왔습니다. 강렬한 진동으로 인해 관찰 장비 2대가 손상되었습니다.</p>
                 <br>
-                <p>1615i, 개체의 복부 개구에서 촉수로 추정되는 물체가 다수 돌출했습니다. 또한 정체불명의 괴성을 포효했으나, '괴로움을 흉내내고자 고안한 행동'으로 일축하기로 합의했습니다.<p>
+                <p>1615i, 개체의 복부 개구에서 촉수로 추정되는 물체가 다수 돌출했습니다. 또한 정체불명의 괴성을 포효했으나, '괴로움을 흉내내고자 고안한 행동'으로 일축하기로 합의했습니다.</p>
                 <br>
-                <p>1728i, 챔버 내부 온도가 일시적으로 68°C까지 상승했습니다. 연구원들의 안전을 위해 현장 관찰을 중단하고 원격 감시로 전환했습니다.<p>
+                <p>1728i, 챔버 내부 온도가 일시적으로 68°C까지 상승했습니다. 연구원들의 안전을 위해 현장 관찰을 중단하고 원격 감시로 전환했습니다.</p>
                 <br>
-                <p style="color: #999999;">"다들 미쳤어. 완전히 미쳤어. 난 모르겠어. 누가 괴물인지." - 객원 연구원 L 박사<p>
+                <p style="color: #999999;">"다들 미쳤어. 완전히 미쳤어. 난 모르겠어. 누가 괴물인지." - 객원 연구원 L 박사</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -156,9 +156,9 @@ const pageData = {
                 <br>
                 <p>1500i, J-001의 구멍에 원격 드론을 투입시킨 결과, 드론은 수분간 비행 끝에 신호를 잃었습니다. 카메라엔 도저히 해석할 수 없는 물체들과, 렌즈를 포함한 드론의 일부가 촬영되었습니다. 긴급 회의 결과, 구멍 내부는 3차원 공간이 아닌 것으로 가정했습니다.</p>
                 <br>
-                <p>1600i, 개체의 피부 성분 연구를 위해 50,000V에서 최대 10MV의 전류를 흘려보냈습니다. 개체는 50,000V의 경우 경미한 혼란 반응을 보였으나, 전류를 높일수록 오히려 반응이 잦아들었습니다. 일부 연구원들은 개체가 점차 '적응'하는 것이 아닌지 의문을 제기했습니다.</p>
+                <p>1600i, 개체의 피부 성분 연구를 위해 50,000V에서 최대 10MV의 전류를 흘려보냈습니다. 개체는 50,000V의 경우 경미한 혼란 반응을 보였으나, 전류를 높일수록 오히려 반응이 잦아들었습니다. 일부 연구원들은 체가 점차 '적응'하는 것이 아닌지 의문을 제기했습니다.</p>
                 <br>
-                <p>1634i, 50,000V 실험 이후, 챔버 내부 온도가 점차 상승해, 최대 82°C까지 상승했습니다. 연구원들의 안전을 위해 현장 관찰을 중단하고 원격 감시로 전환했습니다.<p>
+                <p>1634i, 50,000V 실험 이후, 챔버 내부 온도가 점차 상승해, 최대 82°C까지 상승했습니다. 연구원들의 안전을 위해 현장 관찰을 중단하고 원격 감시로 전환했습니다.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -166,13 +166,13 @@ const pageData = {
             'FILE_9': `
                 <p><span class="en">작성자: Dr. R. K.</span></p>
                 <br>
-                <p>1005i, 전 세계적으로 이상 변이 현상이 발생했습니다. 불특정 다수의 몸이 뒤틀리고 비이성적인 행동을 한다는 보고가 올라왔습니다. </p>
+                <p>1005i, 전 세계적으로 이상 변이 현상이 발생했습니다. 불특정 다수의 몸이 뒤틀리고 비이성적인 행동을 한다는 보고가 올라왔습니다.</p>
                 <br>
                 <p>1010i, 개체의 안면부와 복부의 개구에서 안광으로 추정되는 미상의 불빛이 간헐적으로 식별되고 있습니다.</p>
                 <br>
                 <p>1300i, 의회, FBI와의 긴급 공조회의 결과, J-001과 밀접한 관련이 있을 것이라는 가설을 설정하고 개체를 제거하기 위한 절차에 들어갔습니다.</p>
                 <br>
-                <p>2305i, 연구원 ██명이 실종되었습니다. CCTV 확인 결과, 그들은 격리 챔버 방향으로 걸어갔으나 도착 기록이 없습니다.</p>
+                <p>2305i, 연구원 ██명이 실종되었습다. CCTV 확인 결과, 그들은 격리 챔버 방향으로 걸어갔으나 도착 기록이 없습니다.</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -186,11 +186,11 @@ const pageData = {
                 <br>
                 <p>1750i, 기존 JPT 연구원의 67%가 이상 변이자로 변이했으며, 신규 연구원 채용률도 5% 미만으로 매우 낮습니다. 누적된 피해로 인해 연구소 시스템의 42%가 가동 불능 상태가 되었습니다.</p>
                 <br>
-                <p>1800i, 세계적인 이상 변이 현상은 지속되고 있으며, 상부는 개체에 대한 핵 공격을 검토하고 있습니다.</p>
+                <p>1800i, 세계적인 이상 변이 현상은 지속되고 있으며, 상부는 개체에 대한 핵 공격을 검토하고 있니다.</p>
                 <br>
                 <p>2030i, 외부의 정보 통제는 위태롭게 유지되고 있으며, JPT 내부 시스템은 붕괴되기 직전입니다.</p>
                 <br>
-                <p style="color: #999999;">"젠장, 목성의 혹독한 환경에서도 살아왔다 이건가? 아무 소용이 없군." - 화생방 부대 K 대령<p>
+                <p style="color: #999999;">"젠장, 목성의 혹독한 환경에서도 살아왔다 이건가? 아무 소용이 없군." - 화생방 부대 K 대령</p>
                 <br>
                 <p style="color: #e53d2e;"><span class="en">WARNING:</span></p>
                 <p style="color: #e53d2e;">이 자료의 무단 열람, 복사, 배포는 엄격히 금지되어 있습니다.</p>
@@ -204,11 +204,11 @@ const pageData = {
             <p>&nbsp;</p>
             <p>보안 등급: D</p>
             <p>&nbsp;</p>
-            <p>████년 ██월 ██일을 기점으로 이상 변이 현상이 발생했습니다. 변이를 겪는 이상 변이자는 기괴하게 몸이 뒤틀리고,알 수 없는 말을 지껄이는 등의 비이성적인 행동을 합니다. 전 세계에서 동시다발적으로 발생하고 있으며, 목성의 사도(J-001)과 밀접한 관련이 있으리라 추정하고 있습니다.</p>
+            <p>████년 ██월 ██일을 기점으로 이상 변이 현상이 발생했습니다. 변이를 겪는 이상 변이자는 기괴하게 몸이 뒤틀리고, 알 수 없는 말을 지껄이는 등의 비이성적인 행동을 합니다. 전 세계에서 동시다발적으로 발생하고 있으며, 목성의 사도(J-001)과 밀접한 관련이 있으리라 추정하고 있습니다.</p>
             <p>&nbsp;</p>
             <p>현재까지 기록된 주요 이상 현상:</p>
             <p>&nbsp;</p>
-            <p>JPT는 상부의 지시에 의거해, 47개국에 지부를 설치하고 이상 변이 현상에 대한 정보를 통제를 실시하고 있습니다.
+            <p>JPT는 상부의 지시에 의거해, 47개국에 지부를 설치하고 이상 변이 현상에 대한 정보를 통제를 실시하고 있습니다.</p>
             <p>&nbsp;</p>
             <p>이상 변이 현상은 지속적으로 모니터링되고 있으며, 일부 데이터는 CENSORED_MEDIA 섹션에 보관되어 있습니다.</p>
         `,
@@ -218,13 +218,13 @@ const pageData = {
         breadcrumb: 'ANOMALIES // CENSORED_MEDIA',
         showVideo: true,
         videoTabs: [
-            { id: '1137591614', name: 'FILE_1', type: 'vimeo', disabled: false },
-            { id: '', name: 'FILE_2', type: 'youtube', disabled: true },
-            { id: '', name: 'FILE_3', type: 'youtube', disabled: true },
-            { id: '1137591649', name: 'FILE_4', type: 'vimeo', disabled: false },
-            { id: '', name: 'FILE_5', type: 'youtube', disabled: true },
-            { id: '', name: 'FILE_6', type: 'youtube', disabled: true },
-            { id: '', name: 'FILE_7', type: 'youtube', disabled: true }
+            { id: 'news.mp4', name: 'FILE_1', type: 'video' },
+            { id: '', name: 'FILE_2', disabled: true },
+            { id: '', name: 'FILE_3', disabled: true },
+            { id: 'bodycam.mp4', name: 'FILE_4', type: 'video' },
+            { id: '', name: 'FILE_5', disabled: true },
+            { id: '', name: 'FILE_6', disabled: true },
+            { id: '', name: 'FILE_7', disabled: true }
         ],
         videoTitle: 'NEWS',
         videoTexts: {
@@ -249,7 +249,7 @@ const pageData = {
                 <p>일시: ████년 ██월 ██일 1804i</p>
                 <p>상태: 비디오 수거 완료</p>
                 <br>
-                <p>변이 징후가 포착되어 체포 팀이 출동했고, '이종범 병장'을 대한민국 제3 격리 시설로 이송하기 위해 현장에 도착했습니다. 개체는 벽을 바라보며 미약한 움직임만을 반복하고 있었으나, 대상의 경추가 뒤틀리며 등 뒤의 요원을 응시했습니다. 개체의 손과 입엔 수류탄이 있었으며, 배 속에도 다수의 수류탄이 존재하는 것으로 추정됩니다. 이후, 수류탄 격발로 인해 요원 7명이 현장에서 즉사했고, 개체또한 산산조각 났습니다.</p>
+                <p>변이 징후가 포착되어 체포 팀이 출동했고, '이범 병장'을 대한민국 제3 격리 시설로 이송하기 위해 현장에 도착했습니다. 개체는 벽을 바라보며 미약한 움직임만을 반복하고 있었으나, 대상의 경추가 뒤틀리며 등 뒤의 요원을 응시했습니다. 개체의 손과 입엔 수류탄이 있었으며, 배 속에도 다수의 수류탄이 존재하는 것으로 추정됩니다. 이후, 수류탄 격발로 인해 요원 7명이 현장에서 즉사했고, 개체또한 산산조각 났습니다.</p>
                 <br>
                 <p>해당 사건은 군부대 내 폭발물 관리 소홀로 인한 사고로 위장해 유가족에게 통보했습니다.</p>
                 <br>
@@ -398,16 +398,57 @@ function loadVideo(videoId, type = 'youtube') {
                 if (bgm && bgmStarted) bgm.play();
             });
         }
-    } else if (type === 'image') {
+    } else if (type === 'video') {
         videoPlayerContainer.innerHTML = `
-            <img 
-                id="image-player"
-                src="./images/${videoId}" 
-                alt="Image" 
-                width="100%" 
-                height="100%" 
-                style="object-fit: contain;">
+            <video controls style="width: 100%; height: 100%; object-fit: contain;">
+                <source src="./videos/${videoId}" type="video/mp4">
+                비디오를 로드할 수 없습니다.
+            </video>
         `;
+        
+        const videoElement = videoPlayerContainer.querySelector('video');
+        
+        // 비디오 로드 에러 확인
+        videoElement.addEventListener('error', function(e) {
+            console.error('비디오 로드 에러:', e);
+            console.error('비디오 경로:', `./videos/${videoId}`);
+        });
+        
+        videoElement.addEventListener('loadeddata', function() {
+            console.log('비디오 로드 성공:', `./videos/${videoId}`);
+        });
+        
+        videoElement.addEventListener('play', function() {
+            if (bgm) bgm.pause();
+        });
+        
+        videoElement.addEventListener('pause', function() {
+            if (bgm && bgmStarted) bgm.play();
+        });
+        
+        videoElement.addEventListener('ended', function() {
+            if (bgm && bgmStarted) bgm.play();
+        });
+    } else if (type === 'image') {
+        const isVideo = videoId.match(/\.(mp4|webm|mov)$/i);
+        
+        if (isVideo) {
+            videoPlayerContainer.innerHTML = `
+                <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: contain;">
+                    <source src="./images/${videoId}" type="video/mp4">
+                </video>
+            `;
+        } else {
+            videoPlayerContainer.innerHTML = `
+                <img 
+                    id="image-player"
+                    src="./images/${videoId}" 
+                    alt="Image" 
+                    width="100%" 
+                    height="100%" 
+                    style="object-fit: contain;">
+            `;
+        }
     } else {
         videoPlayerContainer.innerHTML = `
             <iframe 
@@ -444,17 +485,14 @@ function updateBreadcrumbWithFile(fileName) {
     
     const videoTitleMap = {
         'APOSTLE_RESEARCH': {
-            'FILE_1': '19██-10-07',
-            'FILE_2': '19██-10-24',
-            'FILE_3': '19██-11-21',
-            'FILE_4': '19██-12-03',
-            'FILE_5': '19██-01-12',
-            'FILE_6': '19██-01-29',
-            'FILE_7': '19██-02-05',
-            'FILE_8': '19██-03-25',
-            'FILE_9': '19██-04-02',
-            'FILE_10': '19██-05-09',
-            'FILE_11': '19██-07-02'
+            'FILE_1': '████-10-07',
+            'FILE_2': '████-10-24',
+            'FILE_4': '████-12-03',
+            'FILE_5': '████-01-12',
+            'FILE_7': '████-02-05',
+            'FILE_8': '████-03-25',
+            'FILE_9': '████-04-02',
+            'FILE_11': '████-07-02'
         },
         'ANOMALIES_MEDIA': {
             'FILE_1': 'NEWS',
@@ -470,7 +508,7 @@ function updateBreadcrumbWithFile(fileName) {
     }
     
     const breadcrumb = document.getElementById('breadcrumb');
-    breadcrumb.innerHTML = `<span>${data.breadcrumb}</span><span class="separator"> // </span><span class="current">${fileName} (${videoTitle})</span>`;
+    breadcrumb.innerHTML = `<span>${data.breadcrumb}</span><span class="separator"> // </span><span class="current">${fileName}(${videoTitle})</span>`;
 }
 
 function updateVideoText(fileName) {
